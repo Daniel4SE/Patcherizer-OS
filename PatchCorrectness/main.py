@@ -1,6 +1,10 @@
 import torch
 import pickle
 import os
+import os, sys
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.dirname(SCRIPT_DIR))
+sys.path.append(os.path.dirname(os.path.dirname(SCRIPT_DIR)))
 import numpy as np
 import random
 import math
@@ -16,8 +20,10 @@ from sklearn.metrics import confusion_matrix
 import config_correctness as config
 import warnings
 warnings.filterwarnings("ignore")
-dirname = os.path.dirname(__file__)
+dirname = os.path.dirname(os.path.abspath(__file__))
+print('dirname: {}'.format(dirname))
 MODEL_CC2Vec = dirname + '/representation/CC2Vec/'
+Data_folder = dirname + '/data/'
 
 dictionary = pickle.load(open(MODEL_CC2Vec + 'dict.pkl', 'rb'))
 
@@ -179,9 +185,9 @@ def compare_embeddings(times=10, algorithm='xgb', path_ASE_bert=None):
     aucs_b, rcs_p_b, rcs_n_b = list(), list(), list()
     accs_b, prcs_b, rcs_b, f1s_b,  =  list(), list(), list(), list()
 
-    patcherizer_features = pickle.load(open('./data/patcherizer_feature.pickle', 'rb'))
+    patcherizer_features = pickle.load(open(Data_folder+'patcherizer_feature.pickle', 'rb'))
     Bert_features = pickle.load(open(path_ASE_bert, 'rb'))
-    CC2Vec_features = pickle.load(open('./data/ASE-CC2Vec_feature.pickle', 'rb'))
+    CC2Vec_features = pickle.load(open(Data_folder+'ASE-CC2Vec_feature.pickle', 'rb'))
 
     project_ids = list(patcherizer_features.keys())
     # new_project_ids = []
