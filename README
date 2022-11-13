@@ -26,11 +26,12 @@ Patcherizer, a novel representation learning approach that fuses contextual, str
 
 ### A) RQ1 (Performance of Patcherizer)
 #### RQ 1.1 Patch description generation
+
+#### RQ 1.2 Patch correctness assessment
 go to /PatchCorrectness/, and execute the following script:
 ```
 python main.py
 ```
-#### RQ 1.2 Patch correctness assessment
 #### RQ 1.3 JIT defect prediction
 
 ### B) RQ2 ()
