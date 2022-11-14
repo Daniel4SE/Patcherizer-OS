@@ -1,0 +1,190 @@
+ - doInspectionTest ( new GoUnusedFunctionInspection ( ) , TimeUnit . MINUTES . toMillis ( 3 ) ) ; <nl> + doInspectionTest ( new GoUnusedFunctionInspection ( ) , TimeUnit . SECONDS . toMillis ( 30 ) ) ; 
+ - setSlidingActionBarEnabled ( false ) ; 
+ - private static class ApplicationMasterPrivateAccess { <nl> + private static final class ApplicationMasterPrivateAccess { 
+ + Preconditions . checkState ( stream != null , " Not started " ) ; 
+ + ( ( StoreDirect ) e ) . init ( ) ; 
+ - int DEFAULT_CACHE_SIZE = 1024 * 32 ; <nl> + int DEFAULT_CACHE_SIZE = 2048 ; 
+ - BsonDocumentBufferSerializer serializer = <nl> + private BsonDocumentBufferSerializer serializer = 
+ - <nl> space
+ + <nl> + <nl> + public boolean supportsNotNullUnique ( ) { <nl> + return false ; <nl> + } 
+ + setStatic ( ) ; 
+ - return " preferences . versionUpdates " ; <nl> + return " preferences . updates " ; 
+ - <nl> space
+ - import java . util . regex . Pattern ; 
+ - maker . fileMmapEnableIfSupported ( ) ; <nl> + maker . fileMmapEnableIfSupported ( ) . fileMmapCleanerHackEnable ( ) ; 
+ - private Long customer__resolvedKey ; <nl> + private transient Long customer__resolvedKey ; 
+annotation
+ + mDrawer . peekDrawer ( 1000 , 0 ) ; 
+ - public static boolean INHERIT_LOG4J = true ; <nl> + public static boolean INHERIT_LOG4J = false ; 
+ - return null ; <nl> + return " Templates Dialog " ; 
+ - unsubscribed . set ( false ) ; <nl> + unsubscribed . set ( true ) ; 
+ + public boolean compare ( Integer n1 , Integer n2 ) { { <nl> + return n1 == n2 ; <nl> + } 
+ - break ; 
+ - <nl> - return null ; <nl> + return graph ; 
+ + HystrixPlugins . reset ( ) ; 
+ + <nl> + public void large_record_larger ( ) { { <nl> + <nl> + } 
+ - import java . io . BufferedWriter ; 
+ - doSetText ( null ) ; <nl> + doSetText ( text ) ; 
+ - <nl> + remove ( getCenterIndex ( ) , true ) ; 
+ - private IDevice device = null ; <nl> + private IDevice device ; 
+ - sendAccessibilityEvent ( AccessibilityEvent . TYPE_WINDOW_STATE_CHANGED ) ; <nl> + getRootView ( ) . sendAccessibilityEvent ( AccessibilityEvent . TYPE_WINDOW_STATE_CHANGED ) ; 
+ + import org . geometerplus . fbreader . bookmodel . BookModel ; 
+ + import android . net . Uri ; 
+ - return handshakeTimeoutMillis ; <nl> + return closeNotifyTimeoutMillis ; 
+ - public static class Builder { <nl> + } public static final class Builder { 
+ - flushInternal ( false , false ) ; <nl> + flushInternal ( ( listener == null ) , false ) ; 
+ - return new ArrayList < SyncInfo > ( syncs ) ; <nl> + return syncs ; 
+ - mUnreachedBarPaint . setColor ( mReachedBarColor ) ; <nl> + mUnreachedBarPaint . setColor ( mUnreachedBarColor ) ; 
+ + <nl> + MethodCache . reset ( ) ; 
+ - color = Color . BLACK ; <nl> + color = new Color ( 153 , 153 , 153 ) ; 
+ - doBooleanCommand ( " BSS_FLUSH " ) ; <nl> + doBooleanCommand ( " BSS_FLUSH 0 " ) ; 
+ - public class XMMapFSDirectory extends NIOFSDirectory { <nl> + public class XMMapFSDirectory extends MMapDirectory { 
+ - return descriptorToDeclarations . get ( descriptor ) ; <nl> + return descriptorToDeclarations . get ( descriptor . getOriginal ( ) ) ; 
+annotation
+ + private Version ( ) { } <nl> + 
+ + import org . jetbrains . ether . dependencyView . Mappings ; 
+ - throw new UnsupportedOperationException ( " Received an uknown message type . " ) ; <nl> + throw new UnsupportedOperationException ( " Received an unknown message type . " ) ; 
+ - " allowNonEmergencyCallsInEcm " ; <nl> + " allow_non_emergency_calls_in_ecm_bool " ; 
+ - mSensorEventListener . setAllow180Rotation ( allowed ) ; <nl> + if ( mSensorEventListener != null ) { <nl> + mSensorEventListener . setAllow180Rotation ( allowed ) ; <nl> + } 
+ + import buildcraft . core . render . BlockHighlightHandler ; 
+ + removeCallbacks ( this ) ; 
+ - <nl> + 
+ - this . finished = true ; <nl> + this . finished = finished ; 
+ + state |= FLAG_READ_REQUIRES_WRITE ; 
+ + <nl> + <nl> + public boolean isCaseSensitive ( ) { <nl> + return true ; <nl> + } 
+ - <nl> - System . out . println ( focusedElement ) ; 
+ - clear ( ) ; 
+ + <nl> + setProxyConfig ( ) ; 
+ + FMLLaunchHandler . appendCoreMods ( ) ; 
+ - return ; 
+ + _key = null ; 
+ - return " refactoring . pushMembersDown " ; <nl> + return " python . reference . pushMembersDown " ; 
+ + TreeModelBuilder . clearCaches ( myProject ) ; 
+ - return superClass ; <nl> + return isInterface ( ) ? null : superClass ; 
+ - folderName = FONT_16SP ; <nl> + folderName = MEDIUM ; 
+ - return " JSSE " ; <nl> + return " JSSE " ; 
+ - public void onActivityCreated ( Activity activity , Bundle arg1 ) { <nl> + } public void onActivityCreated ( Activity arg0 , Bundle arg1 ) { 
+ - if ( executorService == null ) { <nl> - return ; <nl> - } <nl> - 
+annotation
+ + return tintInfo ; 
+ - myLastOffsetInNewTree = optimizedResult ; 
+ - import android . app . Activity ; 
+ - return DEFAULT_BINARY_DICT ; <nl> + return binaryDictPath ; 
+ + <nl> + addLayer ( layer ) ; 
+ - <nl> space
+annotation
+ + AudioContext . setAudioRenderer ( ar ) ; 
+ + metricsBean . feedUpdated ( ) ; 
+ - return new Integer ( 1 ) ; <nl> + return Integer . valueOf ( 1 ) ; 
+ + if ( isTransactional ) { <nl> + ( ( TransactionalGraph ) graph ) . commit ( ) ; <nl> + } 
+ - setCoveredFadeColor ( DEFAULT_FADE_COLOR ) ; <nl> - 
+ - throw new AssertionError ( " No Instances . " ) ; <nl> + throw new AssertionError ( " No instances . " ) ; 
+ + checkAndFire ( ) ; 
+ - return " Yaml " ; <nl> + return " YAML " ; 
+ - <nl> + client . close ( ) ; 
+ - jedisPool . returnResource ( jedisSubscriber ) ; <nl> + disconnectSubscriber ( ) ; 
+ - validSpecialChars ) ; <nl> + new String ( validSpecialChars ) ) ; 
+ - import com . battlelancer . seriesguide . beta . R ; 
+ + <nl> space
+ + public Lexer ( ) { } <nl> + 
+ - return activate ( ) ; <nl> + return activate ( false ) ; 
+ - return " refactoring . pullMembersUp " ; <nl> + return " python . reference . pullMembersUp " ; 
+ + <nl> space
+ - public static class SubscriptionCallbackApi21 extends SubscriptionCallback { <nl> + static class SubscriptionCallbackApi21 extends SubscriptionCallback { 
+ - if ( Validator . isNull ( _uploadMessage ) ) { <nl> + if ( Validator . isNotNull ( _uploadMessage ) ) { 
+ - " setSelectedNavigationIndex not valid for current navigation mode " ) ; <nl> + " setSelectedNavigationItem not valid for current navigation mode " ) ; 
+ + <nl> + protected void setCurrent ( Object current ) { <nl> + this . current = current ; <nl> + } 
+ - LOG . error ( msg , this ) ; <nl> + LOG . trace ( msg , this ) ; 
+ - private int startPosition ; <nl> - private int size ; <nl> + private final int startPosition ; <nl> + private final int size ; 
+ + String JAVA_LANG_COMPARABLE = " java . lang . Comparable " ; 
+ - return false ; <nl> + return true ; 
+ + PLoggerFactory . unregister ( this . binder ) ; 
+ + public static final int BASE_ETHERNET = 0x00084000 ; 
+ - return Format . Format35c ; <nl> + return Format . Format35s ; 
+ - throw new RuntimeException ( " Not implemented " ) ; <nl> + return null ; 
+ + setExtent ( world ) ; 
+ + public GroovyClassLoader ( ClassLoader loader ) { <nl> + super ( loader ) ; <nl> + } <nl> + 
+ + handler . setSilent ( true ) ; 
+ - private boolean mIgnoreGutter ; 
+ + setEnabledInModalContext ( true ) ; 
+ + handleDataChanged ( ) ; 
+ - <nl> + throw new ServletException ( " GET verb not implemented " ) ; 
+ + setSupportProgressBarIndeterminateVisibility ( false ) ; 
+ - private static final String FULL_VERSION = " 2 . 10 . 0 " ; <nl> + private static final String FULL_VERSION = " 2 . 10 . 1 - SNAPSHOT " ; 
+ - return getHelpTopic ( ) ; <nl> + return " IntelliLang . Configuration " ; 
+ - final static private int numItemsToRender = 5 ; <nl> + final static private int numItemsToRender = 10 ; 
+ - runTestOrdered ( new Integer ( 42 ) ) ; <nl> + runTestOrdered ( Integer . valueOf ( 42 ) ) ; 
+ + drawer . setDrawerListener ( null ) ; 
+ - public static class SubscriptionCallbackApi21 extends SubscriptionCallback { <nl> + static class SubscriptionCallbackApi21 extends SubscriptionCallback { 
+ - updateButtons ( ) ; <nl> + updateButtons ( ) ; 
+ - import android . util . Log ; <nl> - 
+ - model . labelWords ( ) ; <nl> + 
+ - public TableQuery parent ( ) { <nl> + } public TableQuery endSubTable ( ) { 
+ + g . fileName = fileName ; 
+ - private ThreadSpec threadSpec ; 
+ + } <nl> + <nl> + public void mapCleared ( MapEvent event ) { 
+ + public void init ( ) { <nl> + } <nl> + <nl> + 
+ - import com . sun . jmx . snmp . internal . SnmpDecryptedPdu ; <nl> - 
+ - return " 3 . 0 " ; <nl> + return " 3 . 1 " ; 
+ - import water . persist . Persist ; 
+ - int index ; <nl> + int index = 0 ; 
+ - return ClassHelper . long_TYPE ; <nl> + return ClassHelper . double_TYPE ; 
+ + this . activityState = ACTIVITY_EXITING ; 
+ + public static final int selectableItemBackground = 0x10a13 ; 
+ + this . program = program ; 
+ - import android . util . Log ; <nl> - 
+ - return builder . setReflectively ( " srcs " , getResolver ( ) . filterInputsToCompareToOutput ( sources ) ) ; <nl> + return builder ; 
+ + break ; 
+ - readStayAwakeConditions ( ) ; <nl> + readWifiSleepPolicy ( ) ; 
+ - import alluxio . cli . Version ; 
+annotation
+ - import android . * ; 
+ - System . out . println ( " Caught an exception here " ) ; 
+ - public void close ( ) { <nl> - } <nl> - <nl> - 
+ - setCorePoolSize ( threadCount ) ; <nl> + setCorePoolSize ( threadCount ) ; 
+ + public void testConfiguration ( ) { } <nl> + <nl> + 
+ - return new GitHistoryTreeProvider ( ) ; <nl> + return null ; 
+ - public abstract class AbstractJavaClass { <nl> + public class AbstractJavaClass { 
+ - System . out . println ( " hashCode got called " ) ; 
+ - return null ; <nl> + return delegate . transaction ( ) ; 
+ - environmentConfig = new EnvironmentConfig ( ) ; 
+ - import java . io . FileNotFoundException ; 
+ - return " 0 . 3 . 0 " ; <nl> + return " 0 . 3 . 1 " ; 
+ - mFilter = original . mFilter ; <nl> + setFilter ( original . mFilter ) ; 
+ - public void setup ( ) throws Exception { <nl> + } public void before ( ) throws Exception { 
+ - <nl> space
+ - return ; <nl> + continue ; 
+annotation
+ + <nl> space
+ - <nl> + 
+ + saveCurrentSelections ( ) ; 
+ - <nl> space
+ - return 0 ; <nl> + return delegate . getInvocationTimeout ( ) ; 
+ - return index . get ( ) ; <nl> + return index2Item . size ( ) ; 
+ - Log . d ( " GILLES " , " blinking ! ! ! " ) ; 
+ + <nl> space
+annotation
+ - return false ; <nl> + return true ; 
+ - } catch ( java . net . URISyntaxException ex ) { <nl> + } catch ( Throwable ex ) { 
+ + <nl> space
+ - return 7 ; <nl> + return 3 ; 
+ - static interface IZAddress <nl> + public interface IZAddress 
+ - public int getIndex ( String fieldName ) { <nl> + } public final int getIndex ( String fieldName ) { 
+ - return MysqlDefs . FIELD_TYPE_LONG ; <nl> + return MysqlDefs . FIELD_TYPE_DECIMAL ; 
+ - import org . mockito . internal . matchers . InstanceOf ; 
+ - <nl> space
+ - class Entities { <nl> + public class Entities { 
+ - <nl> space
+ - <nl> space
+ + System . out . println ( " All configuration entries are valid . " ) ; 
+ + mPhotoView . setExcludeMimes ( excludeMimes ) ; 
+ + <nl> space
+ - setImeVisibility ( ! iconified ) ; 
+annotation
+ + resetTracker ( ) ; 
+ - return null ; <nl> + return object ; 
+annotation
+ - loader . loadClass <nl> - ( basePackage + " loader . ResourceEntry " ) ; 
+ - context . addServiceType ( UserConstants . USER_INCLUDE ) ; 
+ - <nl> space
+ - throw new UnsupportedOperationException ( ) ; <nl> + return null ; 

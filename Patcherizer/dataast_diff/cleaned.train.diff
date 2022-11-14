@@ -1,0 +1,1841 @@
+ + case State . INITIALIZING : <nl> + return " INITIALIZING " ; 
+ - applyCurrentState ( ) ; <nl> + updateChildren ( ) ; 
+ + super . close ( ) ; 
+ - private long signal ; <nl> + private volatile long signal ; 
+ - import groovy . lang . Closure ; <nl> - import groovy . lang . GroovyObject ; 
+ - return null ; <nl> + return " reference . settingsdialog . codestyle . python " ; 
+ + keys . add ( key ) ; <nl> + 
+ - <nl> space
+ + <nl> space
+ - public static interface BrokerHosts { <nl> + } public static interface BrokerHosts extends Serializable { 
+ - final ShowcaseView showcaseView ; <nl> + private final ShowcaseView showcaseView ; 
+ + <nl> + public String getName ( ) { <nl> + return name ; <nl> + } 
+ - return DeletionRetentionStrategy . class ; <nl> + return DeletionRetentionStrategyConfig . class ; 
+annotation
+ - List < GenericDomValue < String > > getChangeNoteses ( ) ; <nl> + List < GenericDomValue < String > > getChangeNotess ( ) ; 
+ - <nl> space
+ + private ValidationUtil ( ) { } <nl> + 
+ - private static final int OVERSCROLL_DISTANCE = 2 ; <nl> + private static final int OVERSCROLL_DISTANCE = 0 ; 
+ - return true ; <nl> + return false ; 
+ - import water . persist . Persist ; 
+ - private int mBorderWidth = 6 ; <nl> + private int mBorderWidth = 4 ; 
+ - <nl> + <nl> + public int getBrightnessForRender ( float par1 ) <nl> + { <nl> + return 210 ; <nl> + } 
+ + <nl> + 
+annotation
+ + <nl> space
+ - this . wait ( 15000 ) ; <nl> + this . wait ( 30000 ) ; 
+ + <nl> space
+ - AndroidUtils . executeAsyncTask ( shortCutTask ) ; <nl> + AndroidUtils . executeOnPool ( shortCutTask ) ; 
+ + _total = 0 ; 
+ - scd . addConfigurations ( m ) ; <nl> + bd . addConfigurations ( m ) ; 
+ + HttpConnectionParams . setConnectionTimeout ( httpParams , socketTimout ) ; 
+ + super . stop ( ) ; 
+ - <nl> space
+ - private static final String VERSION = " 0 . 2 . 1 " ; <nl> + private static final String VERSION = " 0 . 2 . 2 " ; 
+annotation
+ - void setReadOnly ( Boolean example ) ; <nl> + void setReadOnly ( Boolean readOnly ) ; 
+ - NodeTraversal . traverseEs6 ( compiler , originalRoot , this ) ; <nl> + NodeTraversal . traverseEs6 ( compiler , scriptRoot , this ) ; 
+ - onMissing . execute ( name ) ; <nl> - 
+ - presentation . setVisible ( false ) ; 
+ + <nl> space
+ - provider = powerProvider ; <nl> + powerProvider = provider ; 
+ - public void seekTest ( ) throws IOException { <nl> + } public void inMemSeekTest ( ) throws IOException { 
+ - subsidyDecreaseBlockCount = 10000 ; <nl> + subsidyDecreaseBlockCount = 150 ; 
+ + intent . addFlags ( Intent . FLAG_GRANT_READ_URI_PERMISSION ) ; 
+ - public class DBMaker < DBMakerT extends DBMaker < DBMakerT > > { <nl> + public class DBMaker < DBMakerT extends DBMaker > { 
+ - System . out . println ( e . getActionCommand ( ) ) ; 
+ - <nl> + OS . rmdir ( sTmpDir ) ; 
+ + sb . append ( returnType ) ; 
+ - return " javax - json / tree / glassfish " ; <nl> + return " json / javax - tree / glassfish " ; 
+ + <nl> + action . setOutputDir ( outputDir ) ; 
+ - private String defaultHostHeader = " ec2 . amazonaws . com " ; 
+ - return HtmlUtil . stripHtml ( _fileEntry . getDescription ( ) ) ; <nl> + return _fileEntry . getDescription ( ) ; 
+ + <nl> space
+ - <nl> space
+ - private SimpleMatrix [ ] slices ; <nl> + private final SimpleMatrix [ ] slices ; 
+ - private boolean rememberPassword ; <nl> + private boolean rememberPassword = true ; 
+ + if ( mNativeClass == 0 ) { <nl> + return false ; <nl> + } 
+ + refreshDrawableState ( ) ; 
+ - break ; 
+ - setOnTouchListener ( null ) ; 
+ - import com . slidinglayersample . R ; <nl> - 
+ + myMap = null ; 
+ + mGCThread = new GCThread ( this ) ; <nl> + mGCThread . start ( ) ; <nl> + 
+ - return mLabelVerticalSecondScaleWidth ; <nl> + return mLabelVerticalSecondScaleWidth == null ? 0 : mLabelVerticalSecondScaleWidth ; 
+annotation
+ - cassandra . stop ( ) ; 
+ - <nl> - 
+ + <nl> space
+ - return null ; <nl> + return " project . propVCSSupport . VCSs . Mercurial " ; 
+ - public static final String PARAM_BROWSABLE_ONLY = " browable_only " ; <nl> + public static final String PARAM_BROWSABLE_ONLY = " browsable_only " ; 
+ - IRemoteCallback callback , boolean scaleUp ) { <nl> + IRemoteCallback callback0 , IRemoteCallback callback1 , boolean scaleUp ) { 
+ + orchestrator . resetData ( ) ; 
+ - UNUSED13 , <nl> + RGBA4444 , 
+ - mForcedUpgradeVersion = version ; <nl> + setForcedUpgrade ( version ) ; 
+ + <nl> space
+ + super . httpMethods ( ) ; 
+ - return " STATE_WAIT_CONNECTION " ; <nl> + return " TASK_CANCEL " ; 
+ - myIgnoreLibraries = true ; <nl> + myIgnoreLibraries = false ; 
+ + public String distributedRequestSource = null ; 
+ - public class Undertow { <nl> + public final class Undertow { 
+ - return JournalEntryType . ADD_MOUNTPOINT ; <nl> + return JournalEntryType . DELETE_MOUNTPOINT ; 
+ + setCachingEnabled ( false ) ; 
+ - import java . io . EOFException ; 
+ - abstract protected Uri getContentUri ( ) ; <nl> + abstract public Uri getContentUri ( ) ; 
+ + mSessionCallback = null ; 
+ + if ( portletId . equals ( PortletKeys . LAYOUTS_ADMIN ) ) { <nl> + return true ; <nl> + } <nl> + 
+annotation
+ - DOUBLE ( SIZE_OF_DOUBLE ) , <nl> - VARIABLE_BINARY ( - 1 ) ; <nl> + VARIABLE_BINARY ( - 1 ) , <nl> + DOUBLE ( SIZE_OF_DOUBLE ) ; 
+ - int totalStatus = 0 ; <nl> + this . totalStatus = 0 ; 
+ - <nl> space
+ + setFull3D ( ) ; 
+ + <nl> + <nl> + public boolean hasSettingsPage ( ) { <nl> + return false ; <nl> + } 
+ + public String getPortletName ( ) { <nl> + return StringPool . BLANK ; <nl> + } <nl> + <nl> + 
+ - <nl> - return 7 ; <nl> + return myPlatformToolsRevision ; 
+ - notifyAll ( ) ; 
+ - return new HashSet < > ( ) ; <nl> + return Collections . singleton ( DEPENDENCY_REQUIREMENT ) ; 
+ - <nl> space
+ + myTreeTable . updateUI ( ) ; 
+ - <nl> + ex . printStackTrace ( ) ; 
+annotation
+ - return Arrays . toString ( bytes ) ; <nl> + return FBUtilities . bytesToHex ( bytes ) ; 
+ - setReadTimeout ( soTimeout ) ; <nl> - setWriteTimeout ( soTimeout ) ; 
+ - return popBackStack ( null , - 1 ) ; <nl> + return popBackStack ( null , 0 ) ; 
+ + <nl> + 
+ - populate ( newCurrItem ) ; <nl> + setCurrentItemInternal ( newCurrItem , false , true ) ; 
+annotation
+ - return R . layout . fragment_gsd_enter_always_collapsed ; <nl> + return R . layout . fragment_gsd_enter_always_collapsed_parallax ; 
+ - return parentGen ; <nl> + return parentGen == null ? this : parentGen ; 
+ - return " ViewPager move one page to the right " ; <nl> + return " ViewPager move to a specific page " ; 
+ - p = 0 ; <nl> + seek ( 0 ) ; 
+ - sPathMeasureManager . removeJavaReferenceFor ( nPathMeasure ) ; <nl> + 
+ - private static Random sRandom ; 
+ - <nl> space
+ + <nl> space
+ + user . setModifiedDate ( modifiedDate ) ; <nl> + 
+ + mScaleGestureDetector . setQuickScaleEnabled ( false ) ; 
+ - if ( backgroundTask != null ) { <nl> + if ( backgroundTask == null ) { 
+ + Collections . reverse ( messages ) ; <nl> + 
+ + throw new AssertionError ( " No instances . " ) ; 
+ - return " 4 . 5 " ; <nl> + return " 4 . 5 . 1 " ; 
+ - public void mapActivityCreate ( MapActivity activity ) { <nl> - } <nl> - <nl> - <nl> - 
+ - final class Murmur3 { <nl> + public final class Murmur3 { 
+ + public boolean isInTrash ( ) ; <nl> + 
+ - private static final int SLEEP_AFTER_YIELD_QUANTUM = 500 ; <nl> + private static final int SLEEP_AFTER_YIELD_QUANTUM = 1000 ; 
+ - static class TemplateResource { <nl> + public static class TemplateResource { 
+ - Log . info ( " Name Info : " + name ) ; 
+ + mSiteSettings . saveSettings ( ) ; 
+ - public final class Number3D { <nl> + public class Number3D { 
+ - public DBMaker asyncThreadSetDaemon ( ) { <nl> + } public DBMaker asyncThreadDaemonEnable ( ) { 
+ + <nl> + void setMaxActive ( int maxActive ) ; 
+ + shutdown = false ; 
+ - pipeline . getState ( ) ; 
+ - return turnInitIntoDir ( file ) != null ; <nl> + return PyNames . INIT_DOT_PY . equals ( file . getName ( ) ) ; 
+ + rootColumnGroup . tabulate ( ) ; 
+ - removeMessages ( QUIT ) ; 
+ - <nl> space
+ - return splitArea ( KEY_METERING_AREAS ) ; <nl> + return splitArea ( get ( KEY_METERING_AREAS ) ) ; 
+ + <nl> space
+ - return path + File . separator + " data " + where ; <nl> + return path + File . separator + " data " + File . separator + where ; 
+ + if ( ! group . isManualMembership ( ) ) { <nl> + return true ; <nl> + } <nl> + 
+ - if ( mAdapter != null ) { <nl> - populate ( ) ; <nl> - } 
+ + modelviewInv . reset ( ) ; 
+ + logMessage ( String . valueOf ( x ) ) ; 
+ - clearSelection ( ) ; 
+ - <nl> space
+ + mIsFirstVisible = true ; 
+ + mRecycled = true ; 
+ - ClientContext . reset ( ) ; <nl> + ClientContext . reset ( ) ; 
+ + <nl> + break ; 
+ + public PGLListener ( ) { } <nl> + 
+ + appView . setVerticalScrollBarEnabled ( false ) ; 
+ + removeCallbacks ( mUpdateSeekBars ) ; 
+ - <nl> + 
+ - throw new NotImplementedException ( ) ; <nl> + throw new UnsupportedOperationException ( ) ; 
+ + acceptSiblings ( currentNode , followSiblings ) ; 
+ - <nl> space
+ - import java . util . UUID ; 
+ - return " jet " ; <nl> + return " Kotlin " ; 
+ - System . out . println ( w . toString ( ) ) ; <nl> - 
+annotation
+ + if ( getContext ( ) == null ) { <nl> + return ; <nl> + } <nl> + 
+annotation
+ - public class TopicOffsetOutOfRangeException extends FailedFetchException { <nl> + public class TopicOffsetOutOfRangeException extends RuntimeException { 
+ - import javax . annotation . concurrent . ThreadSafe ; 
+ + myProgressLastPosition = 0 ; 
+ - return " " ; <nl> + return " : " + Link . getSiteName ( ) ; 
+ - return value ; <nl> + return ( type == 5 ? " " : value ) ; 
+ - return newTestOptions ( ) ; <nl> + return new TestOptions ( ) ; 
+annotation
+ - mActivity . startActionMode ( wrappedCallback ) ) ; <nl> + frameworkMode ) ; 
+ - <nl> space
+ + super . onSaveInstanceState ( state ) ; <nl> + 
+ + <nl> space
+annotation
+ - return " Rprof " ; <nl> + return " . Rprof " ; 
+annotation
+ + request . setAttribute ( WebKeys . LAYOUT , layout ) ; <nl> + 
+ - localServer = server ; 
+ - permissionResolver . load ( ) ; 
+ - <nl> - <nl> - private WebApplicationContext ctx ; 
+ + event . setFromIndex ( mFirstPosition ) ; <nl> + event . setToIndex ( mFirstPosition + getChildCount ( ) ) ; 
+ - mRequestPosition = 222 ; <nl> + mRequestPosition = position ; 
+ + classNode . setNodeMetaData ( ClassNodeSkip . class , true ) ; 
+ - token = getToken ( 0 ) ; <nl> + token = getToken ( - 1 ) ; 
+ - return createBeanNameELResolver ( false ) ; <nl> + return createBeanNameELResolver ( true ) ; 
+ - setScaleType ( ScaleType . MATRIX ) ; <nl> + setScaleType ( ScaleType . CENTER_INSIDE ) ; 
+ - private static final String TAG = " NetlinkSocketObserver " ; 
+ - return true ; <nl> + throw new AssertionError ( " not implemented " ) ; 
+ + if ( nativeLibraryPath == null ) return false ; 
+ - public Integer native_transport_port = 8000 ; <nl> + public Integer native_transport_port = 9042 ; 
+ - private volatile int maxBootstrapRetries = 1 ; <nl> + private volatile int maxBootstrapRetries = 2 ; 
+annotation
+ - return getProgressNotification ( R . string . copy_preparing ) ; <nl> + return getProgressNotification ( R . string . copy_remaining ) ; 
+ - showNotification ( pm , app , config ) ; <nl> + showNotification ( config , label , bitmap ) ; 
+annotation
+ + <nl> + myEditor . getGutterComponentEx ( ) . revalidateMarkup ( ) ; 
+ - break ; 
+ + super ( subscriber ) ; 
+ - public static final String LAST_USERNAME = " SPRING_SECURITY_LAST_USERNAME " ; 
+annotation
+ - private static int cTryWaitMs = 100 ; <nl> + private static int cTryWaitMs = 50 ; 
+ + attemptToSelectPost ( ) ; 
+annotation
+ + public GroovyClassLoader ( ClassLoader loader ) { <nl> + super ( loader ) ; <nl> + } <nl> + 
+ - Printer ( StringBuilder out ) { <nl> + public Printer ( StringBuilder out ) { 
+ - getOTRKeyInfo ( ) ; <nl> + 
+ - private boolean force ; <nl> + protected boolean force ; 
+ + import android . annotation . SystemApi ; 
+ + if ( myMacroTable == null ) init ( ) ; 
+ + sessionInfo = null ; 
+ - this . rippleInAdapter ( inAdapter ) ; <nl> + this . rippleSearchAdapter = inAdapter ; 
+ + values = new ArrayList < Object > ( ) ; 
+ - import javax . swing . * ; 
+annotation
+ - public void onDateSelected ( Date date ) ; <nl> + void onDateSelected ( Date date ) ; 
+ - sdkInitialize ( applicationContext ) ; <nl> + sdkInitialize ( applicationContext , callback ) ; 
+ - import android . content . DialogInterface ; 
+annotation
+ - <nl> - mReaderWebView . onPause ( ) ; 
+ - return true ; <nl> + return checkedItems . size ( ) == answerIds . length ; 
+ - public void testValidateWithJvmRouteWithPerid ( ) { <nl> + } public void testValidateWithJvmRouteWithPeriod ( ) { 
+ + mSecurityMessage . announceForAccessibility ( mSecurityMessage . getText ( ) ) ; 
+ - System . out . println ( " Setting notified false " ) ; <nl> + 
+ + this . webview . stopLoading ( ) ; 
+ - return result ; <nl> + return result != null ? result : false ; 
+ + mSecurityMessage . announceForAccessibility ( mSecurityMessage . getText ( ) ) ; 
+ - return callParticipants . iterator ( ) ; <nl> + return new LinkedList ( callParticipants ) . iterator ( ) ; 
+ - private final com . mongodb . WriteConcern writeConcern ; <nl> + private final WriteConcern writeConcern ; 
+ + liquidWrapper . dispose ( ) ; 
+ - checkThread ( ) ; 
+ - import java . util . Arrays ; 
+ - protected void setPort ( int thePort ) { <nl> + public void setPort ( int thePort ) { 
+ - import java . io . FileInputStream ; 
+ + public static final String VERSION = " 2 . 0 . 0 " ; 
+ + gestureDetector . onTouchEvent ( event ) ; 
+ + currentStatus = STATUS_UNKNOWN ; 
+ - return " android . hardware . camera2 . impl . CameraDevice " ; <nl> + return " android . hardware . camera2 . impl . CameraDeviceImpl " ; 
+ - private boolean nullStorage = false ; 
+ + removeCallbacks ( mHideRunnable ) ; 
+ - import water . DRemoteTask . DFuture ; 
+ - import org . apache . tools . ant . taskdefs . Sleep ; 
+ - <nl> - import buildcraft . core . inventory . StackHelper ; 
+ + mBlockIsRead = false ; 
+ + dontTagLowercaseWithUppercase ( ) ; 
+ + if ( mExpandedInActionView ) return ; <nl> + 
+ + <nl> + _properties = null ; 
+ + mPaintFooterIndicator . setColor ( footerColor ) ; 
+ - return Dagger_Graph . builder ( ) <nl> + return DaggerGraph . builder ( ) 
+ - return " CRAM - MD5 " ; <nl> + return " DIGEST - MD5 " ; 
+ + synchronized ( mAskedOnceCache ) { <nl> + mAskedOnceCache . clear ( ) ; <nl> + } 
+ + toRelease . flush ( ) ; 
+ - return roles ; <nl> + return Collections . unmodifiableSet ( roles ) ; 
+ + fail ( ) ; 
+ - ? VcsDeleteType . SILENT <nl> + ? VcsDeleteType . IGNORE 
+ - return ! requestFilters . isEmpty ( ) ; <nl> + return ! responseFilters . isEmpty ( ) ; 
+ - SHOULD_INITIALIZE_FROM_DISK_AFTER_BUILDING , 
+ + channel . close ( ) ; 
+ + canvas . requestFocus ( ) ; 
+ + <nl> space
+ - protected class ImageCache extends PMetadata { <nl> + protected class ImageCache { 
+ - private static enum StoreType { KEYSTORE , PEM } ; <nl> - <nl> + private static enum StoreType { <nl> + KEYSTORE , <nl> + PEM <nl> + } 
+ + tempFolder . create ( ) ; 
+ + config . setTargetDirectory ( dir ) ; 
+ - event . world . spawnEntityInWorld ( entity ) ; <nl> + event . world . spawnEntityInWorld ( newEntity ) ; 
+ + mSpinner . setOnItemSelectedListener ( l ) ; 
+ - parseAsValueModelAttribute ( illegalStaticResourceAttributeValue . value ) ; <nl> + parseAsStaticResourceAttribute ( illegalStaticResourceAttributeValue . value ) ; 
+ + myMessageBus . dispose ( ) ; 
+ - private JLanguageTool langTool ; 
+ - public static boolean sUseRenderThread = true ; <nl> + public static boolean sUseRenderThread = false ; 
+ - return mMethodName . hashCode ( ) ; <nl> + return ( mRestrictionName . hashCode ( ) ^ mMethodName . hashCode ( ) ) ; 
+ + <nl> space
+ + <nl> space
+ + Util . checkForTamper ( this , mTamperPromptEventListener ) ; 
+ - return first ( ) ; <nl> + return first ; 
+ - ReaderTag tag = AppPrefs . getReaderTag ( ) ; <nl> - return tag ; <nl> + return mCurrentTag ; 
+ - <nl> space
+ - void setHpackDecoder ( HpackDecoder hpackDecoder ) { <nl> - this . hpackDecoder = hpackDecoder ; <nl> - } <nl> - <nl> - 
+ + super . overheat ( ) ; 
+ + delay = 2 ; 
+ - _socket . setSoLinger ( true , 0 ) ; 
+ - getIntervalHistogramInto ( new Histogram ( inactiveHistogram ) ) ; <nl> + getIntervalHistogramInto ( intervalHistogram ) ; 
+ - mContext = context . getApplicationContext ( ) ; <nl> + mContext = context ; 
+ - public MDCInterceptor ( ) { <nl> - <nl> - } <nl> - 
+ + public Date watched ; 
+ - return true ; <nl> + return false ; 
+ - <nl> - public void setRootPath ( String rootPath ) { <nl> - this . rootPath = rootPath ; <nl> - } 
+ + currRequestExpiry = defaultExpiry ; 
+ - BluetoothLeUtils . checkAdapterStateOn ( mBluetoothAdapter ) ; 
+ - return warningExceptionTime ; <nl> + return warningExceptionTime ; 
+ - if ( isTaken ( ) ) { <nl> + if ( robotTaking ( ) != null ) { 
+ + executor . shutdownNow ( ) ; 
+annotation
+ - public static interface Item { <nl> + } public interface Item { 
+ - waiter . waitForView ( view , SMALLTIMEOUT ) ; 
+ - <nl> space
+ + size = 0 ; 
+ + setCurrentWayPoint ( path . getNbWayPoints ( ) - 1 ) ; 
+ + limit ( 1 ) ; 
+ - public class ParameterizedTestExample extends AndroidTestCase { <nl> + public class RealmTest extends AndroidTestCase { 
+ - import java . text . BreakIterator ; <nl> + import android . icu . text . BreakIterator ; 
+ - <nl> space
+ - socket . getPoller ( ) . add ( socket ) ; 
+ - CommandHandler commandManager = ( CommandHandler ) event . getServer ( ) . getCommandManager ( ) ; <nl> - commandManager . registerCommand ( new CommandBuildCraft ( ) ) ; <nl> + event . registerServerCommand ( new CommandBuildCraft ( ) ) ; 
+ - return " application / json " ; <nl> + return CONTENT_TYPE ; 
+ + updateMaxSyncedDateCalllog ( getMaxSyncedDateCalllog ( ) ) ; 
+ - return true ; <nl> + return isAvailableOnDataContext ( dataContext ) ; 
+ - return myRepository . getChildText ( " url " ) ; <nl> + return myRepository . getChildText ( " url " ) + " . git " ; 
+ - if ( ! isAvailable ( node ) ) <nl> + while ( ! isAvailable ( node ) ) 
+ + twitterAPI2 . createFriendship ( id1 ) ; 
+ + public static int SC_500_INTERNAL_SERVER_ERROR = 500 ; 
+ - <nl> space
+ - updateHistoryEntry ( event . getOldFile ( ) , true ) ; <nl> + updateHistoryEntry ( event . getNewFile ( ) , true ) ; 
+ - removedTerrains . remove ( tq ) ; <nl> + removedTerrains . add ( tq ) ; 
+ - return setNumber ( String . valueOf ( integerPart ) ) ; <nl> + return setIntegerPart ( String . valueOf ( integerPart ) ) ; 
+ + result . extra = restriction . extra ; 
+ - return myEvaluateActionHandler ; <nl> + return DISABLED ; 
+ + atmosphereHandler . value . set ( new HashSet ( ) ) ; 
+ + mOnFlagListener = flagListener ; 
+ + import net . minecraftforge . event . Cancelable ; <nl> + 
+ - <nl> space
+ + <nl> + <nl> + public Message getRawMessage ( ) { return message ; } 
+ + mymodel . delete_best_model ( ) ; 
+ - if ( hasResources ( ) ) { <nl> + if ( mResTable != null ) { 
+ - return model ; <nl> + return DeepCopier . copy ( model ) ; 
+ - private static final String VERSION = " 0 . 2 . 0 " ; <nl> + private static final String VERSION = " 0 . 2 . 1 " ; 
+ - " abcdefghijklmnopqrstuvwzyz " + <nl> + " abcdefghijklmnopqrstuvwxyz " + 
+ - return format ( bytes ) ; <nl> + return super . format ( bytes ) ; 
+ - private final String keyspace ; <nl> + } public final String keyspace ; 
+ + <nl> space
+ + <nl> space
+ - public TourInformation getTour ( ) { <nl> - return tour ; <nl> - } <nl> - 
+ + mTimestamp = 0 ; 
+ - return false ; 
+ - mSystemUiVisibility = visibility ; 
+ - <nl> + 
+ - private static final int DELAY = 5000 ; <nl> + private static final int DELAY = 2500 ; 
+ - return getId ( ) ; <nl> + return null ; 
+ - <nl> space
+ + return ; 
+ + if ( html == null ) <nl> + return null ; <nl> + 
+ - return " Provides facilities for developing Python applications " ; <nl> + return " Provides facilities for developing Python and Django applications " ; 
+ - log = logMapDataWarn ; <nl> + logMapDataWarn = log ; 
+ + this . leftOver = 0 ; 
+ - checkThread ( ) ; 
+ - return value != null ; <nl> + return value == null ; 
+ - mWallpaperManager . forgetLoadedWallpaper ( ) ; 
+ - public class ConnectPlugin extends Plugin { <nl> + public class ConnectPlugin extends CordovaPlugin { 
+ - } ; <nl> + } 
+ + out . writeInt ( 1 ) ; 
+ - import org . hibernate . validator . cfg . defs . GenericConstraintDef ; 
+ - return null ; <nl> + return " project . propVCSSupport . VCSs . Git " ; 
+ - <nl> space
+ + recalculate ( ) ; 
+ + target . flip ( ) ; 
+ - protected OsmPoint [ ] toUpload ; <nl> + protected OsmPoint [ ] toUpload = new OsmPoint [ 0 ] ; 
+ - text . closeElement ( BR ) ; <nl> + text . emptyElement ( BR ) ; 
+ + if ( mCacheDatabase == null ) { <nl> + return 0 ; <nl> + } 
+ - return false ; <nl> + return true ; 
+ - PoshiRunnerValidation . validate ( rootElement , filePath ) ; <nl> - 
+annotation
+ + _manageServiceTrackerMap . open ( ) ; 
+ - protected Configuration conf ; 
+ - return null ; <nl> + return this ; 
+ + <nl> space
+ - <nl> - <nl> - Log . d ( " debug " , " - - > viewportY " + viewPortY ) ; 
+ + tileNBT = ( NBTTagCompound ) tileNBT . copy ( ) ; 
+ - public VoldemortConfig ( ) { <nl> - this ( new Props ( ) ) ; <nl> - } <nl> - 
+ + <nl> space
+ - myRepresentationNodes . add ( renderer ) ; <nl> + myRepresentationNodes . add ( 0 , renderer ) ; 
+ - migrate ( ) ; 
+ - public final class Preconditions { <nl> + final class Preconditions { 
+ + <nl> space
+ + <nl> + public Project getProject ( ) { <nl> + return myProject ; <nl> + } 
+ + public interface Function0 < R > { <nl> + R run ( ) ; <nl> + } <nl> + <nl> + 
+ - throw new IllegalStateException ( " No configured RPC daemon " ) ; <nl> + return false ; 
+ - enum InclusionStrategy { <nl> + public static enum InclusionStrategy { 
+ + myTypeSelectorManager . typeSelected ( getFieldType ( ) ) ; 
+ + public void setSubsetting ( ) { <nl> + subsetting = true ; <nl> + } <nl> + <nl> + 
+ + setOKButtonMnemonic ( ' D ' ) ; 
+ - import test . OverloadInput ; <nl> + 
+ - return _serviceMonitorAdvice . isActive ( ) ; <nl> + return ServiceMonitorAdvice . isActive ( ) ; 
+ + t . recycle ( ) ; 
+ - public void testReloadAllUpdatesListObjects ( ) { <nl> + } public void testReloadUpdatesListObjects ( ) { 
+annotation
+ - <nl> space
+ + GenericAttributeValue < Boolean > getUseIdeaClassloader ( ) ; <nl> + <nl> + 
+ - } public boolean createNativeQueryTyped ( ) ; <nl> + boolean createNativeQueryTyped ( ) ; 
+ - public static final int animation_list = 0x10700 ; <nl> + public static final int animation_list = 0x10701 ; 
+ - private static final int FAILED_BIOMETRIC_UNLOCK_ATTEMPTS_BEFORE_BACKUP = 5 ; <nl> + private static final int FAILED_BIOMETRIC_UNLOCK_ATTEMPTS_BEFORE_BACKUP = 3 ; 
+ - private static final int SIZE = 1000 ; <nl> + private static final int SIZE = 100 ; 
+ - HttpServletRequest request ; <nl> + private transient HttpServletRequest request ; 
+ + refreshPersonDetails ( ) ; 
+ - return lastAlertSecondsAgo < grace * 60 ; <nl> + return lastAlertSecondsAgo < ( grace * 60 ) - 2 ; 
+ - return " 0 . 3 . 3 " ; <nl> + return " 0 . 3 . 4 " ; 
+ - this . setSearchRadiusM ( 200 ) ; <nl> + this . setSearchRadiusM ( 500 ) ; 
+ - Messages . sendErrorResponse ( channel , Exceptions . messageOf ( t ) ) ; 
+ - protected Location clone ( ) { <nl> + public Location clone ( ) { { 
+ - } catch ( SQLiteDoneException e ) { <nl> + } catch ( SQLException e ) { 
+ - return dependencyConfiguration ; <nl> + return getOrDefaultConfiguration ( dependencyConfiguration ) ; 
+ - testRandomAligns ( VectAlign . Mode . LINEAR_INTERPOLATE ) ; <nl> + testRandomAligns ( VectAlign . Mode . LINEAR ) ; 
+ - catch ( ProcessCanceledException e ) { <nl> + catch ( RuntimeException e ) { 
+ - return filters ( ) ; <nl> + return filters ; 
+ + registerExtension ( PythonDialectsTokenSetContributor . EP_NAME , new PythonTokenSetContributor ( ) ) ; 
+ - txMap . put ( item . getItemId ( ) , new TxQueueItem ( item ) . setTransactionId ( transactionId ) ) ; 
+ - public void showAssistant ( ) { <nl> - <nl> - } <nl> - <nl> - 
+ - throw new UnsupportedOperationException ( " Socket control isn ' t available in this configuration " ) ; <nl> + 
+ + <nl> space
+ - return new PSurfaceJOGL ( this ) ; <nl> + return surface = new PSurfaceJOGL ( this ) ; 
+ + finish ( ) ; 
+ + <nl> + System . setProperty ( " java . awt . headless " , " true " ) ; 
+ - mDevicePropDb . close ( ) ; 
+ + <nl> space
+ - return " preferences . errorHighlight " ; <nl> + return " preferences . intentionPowerPack " ; 
+ - return mWM . isKeyguardSecure ( ) ; <nl> + return mWM . isKeyguardLocked ( ) ; 
+ - <nl> space
+ - return mWM . isKeyguardSecure ( ) ; <nl> + return mWM . isKeyguardLocked ( ) ; 
+ + private static final long serialVersionUID = - 4110417867718417860L ; <nl> + 
+annotation
+ - mLayerPaint = paint ; <nl> + mLayerPaint = paint == null ? new Paint ( ) : paint ; 
+ - checkThread ( ) ; 
+ - implements AutoCloseable , NakMessageSender , DriverManagedResource <nl> + implements NakMessageSender , DriverManagedResource 
+ - return decorations ; <nl> + return decorations ; 
+ + PortalClassLoaderUtil . getClassLoader ( ) , 
+ + <nl> + <nl> + 
+ + if ( text == null ) { <nl> + text = " " ; <nl> + } 
+annotation
+ - return " jMonkey Engine 3 Alpha 0 . 6 " ; <nl> + return " jMonkeyEngine 3 . 0 . 0 Beta " ; 
+ + System . gc ( ) ; 
+ - return alternatives ; <nl> + return requires ; 
+ - private VectorClock version ; <nl> + private final VectorClock version ; 
+ + executor = other . executor ; 
+ - <nl> - import org . apache . commons . lang . ArrayUtils ; <nl> - 
+annotation
+ - return true ; <nl> + return false ; 
+ - mPackageName = context . getBasePackageName ( ) ; <nl> + mPackageName = mContext . getBasePackageName ( ) ; 
+ - mLastDrawableBounds = drawableBounds ; <nl> + mLastDrawableBounds = new RectF ( drawableBounds ) ; 
+ - protected UnderFileSystemCluster mUfsCluster = null ; <nl> + protected UnderFileSystemCluster mUfsCluster ; 
+ - import com . sun . tools . internal . ws . wsdl . document . Output ; <nl> - 
+ + myEditorTextField . setFontInheritedFromLAF ( false ) ; 
+ - return metrics ; <nl> + return Collections . unmodifiableMap ( metrics ) ; 
+ - return ; 
+ + settings . apLostThreshold = apLostThreshold ; 
+ - <nl> space
+ - mx2 = width ; <nl> - my2 = height ; <nl> + mx2 = width - 1 ; <nl> + my2 = height - 1 ; 
+ + <nl> space
+annotation
+ + read ( ) ; 
+ - protected InstallCommand ( CommandRunnerParams params ) { <nl> + public InstallCommand ( CommandRunnerParams params ) { 
+ + postSync ( ) ; 
+ + evens . close ( ) ; 
+ - VariableScope scope = compileStack . getScope ( ) ; 
+ + mOpaqueOverShape = state . mOpaqueOverShape ; 
+ - startAutoCycle ( 1000 , mSliderDuration , mAutoRecover ) ; <nl> + startAutoCycle ( mSliderDuration , mSliderDuration , mAutoRecover ) ; 
+ - <nl> space
+ - item . field_804_d = value ; <nl> + item . hoverStart = value ; 
+ + contextTools . setEscapeHtml ( false ) ; 
+ - private static final String TAG = " TermView " ; 
+ - import android . util . Log ; <nl> - 
+ + if ( _userGroups . contains ( group ) ) { <nl> + return true ; <nl> + } <nl> + 
+ - HttpURLConnection conn = createConnection ( url ) ; <nl> - conn . connect ( ) ; 
+ - <nl> - <nl> - <nl> - <nl> - 
+ - connection . close ( ) ; 
+ - import java . util . logging . ConsoleHandler ; 
+ - return endEdge ; <nl> + return bottomMostEdge ; 
+ - this ( context , hostId , null , Looper . getMainLooper ( ) ) ; <nl> + this ( context , hostId , null , context . getMainLooper ( ) ) ; 
+ - if ( servicesFound . contains ( line ) ) { <nl> - continue ; <nl> - } 
+ - <nl> space
+ - return null ; <nl> + return baseIterator . getLabels ( ) ; 
+ + Runner . initLogger ( System . getProperty ( " java . io . tmpdir " ) ) ; 
+ + System . exit ( 0 ) ; 
+ - <nl> - AccessibilityManager accessibilityManager = <nl> - ( AccessibilityManager ) context . getSystemService ( Context . ACCESSIBILITY_SERVICE ) ; 
+annotation
+ - return time ; <nl> + return time + 1 ; 
+ + table = toTable ( ) ; 
+ + mountMedia ( Environment . getExternalStorageDirectory ( ) . getAbsolutePath ( ) ) ; 
+annotation
+ - <nl> - 
+ - session = req . getSession ( ) ; <nl> + req . getSession ( ) ; 
+ - if ( ! ( event instanceof BuckEvent ) ) { <nl> + if ( ! ( event instanceof LogEvent ) ) { 
+ - System . err . print ( _csb . toString ( ) ) ; 
+ - System . out . println ( getName ( ) ) ; 
+ - super ( ) ; <nl> + super ( SENDER_ID ) ; 
+ - <nl> space
+ - int bigCount = 0 ; 
+annotation
+ - throw new UnsupportedOperationException ( ) ; <nl> + 
+ - return false ; <nl> + return true ; 
+ - public void onDiscoveredHost ( DatagramPacket packet , Kryo kryo ) { <nl> + public void onDiscoveredHost ( DatagramPacket datagramPacket , Kryo kryo ) { { 
+ - <nl> + 
+ - <nl> space
+ - addInsertToStream ( currentTimestamp , null ) ; 
+ - <nl> - return null ; <nl> + return app . getTargetPointsHelper ( ) ; 
+ + <nl> space
+ - System . err . println ( " AUTH URI XX = " + f . URL ) ; 
+ - public class MongoException extends Exception { <nl> + public class MongoException extends RuntimeException { 
+ - scheduler . shutdown ( ) ; <nl> + scheduler . shutdownNow ( ) ; 
+ + <nl> space
+ - class ConfigurationPortletPortletConfig extends PortletConfigImpl { <nl> + private class ConfigurationPortletPortletConfig extends PortletConfigImpl { 
+ - params . getBuildTarget ( ) ) ; <nl> + nativeLinkable . getBuildTarget ( ) ) ; 
+ + <nl> space
+ + if ( value == null ) { <nl> + return null ; <nl> + } 
+ - notTarget = exprRest ( notTarget ) ; 
+ + <nl> + <nl> + public void classpath ( ) throws Exception { <nl> + executeCompilerCompareOutputJVM ( ) ; <nl> + } 
+ - <nl> space
+ + screenShot . recycle ( ) ; 
+ + logBuffer . force ( ) ; 
+annotation
+ - import java . util . Iterator ; 
+ - progressListeners . add ( listener ) ; <nl> + if ( ! progressListeners . contains ( listener ) ) <nl> + progressListeners . add ( listener ) ; 
+ - private String name ; <nl> - 
+ - this . data = data ; <nl> + this . data = newData ; 
+ - public class SQLiteGeneralTest extends AndroidTestCase { <nl> + public class SQLiteStatementTest extends AndroidTestCase { 
+ - <nl> space
+ - return " LIST < TEST - SELECTORS > " ; <nl> + return " TEST - SELECTOR " ; 
+ - return null ; <nl> + return " " ; 
+ + mThemeColor = null ; 
+ + acceptSiblings ( currentNode , followSiblings ) ; 
+ + sendNetworkUpdate ( ) ; <nl> + 
+ + updateStatus ( ) ; 
+ + Util . setText ( mEndNowButton , mContext . getString ( R . string . volume_zen_end_now ) ) ; 
+ - return oa . length ; <nl> + return oa . length - i ; 
+ - event . recycle ( ) ; 
+ + break ; 
+ + for ( Drawable drawable : mDrawables ) { <nl> + drawable . setCallback ( null ) ; <nl> + } 
+ + if ( jobs == null ) return ; 
+ + if ( viaPosition < 0 ) <nl> + throw new IllegalStateException ( " Uninitialized via count in instruction " + getName ( ) ) ; <nl> + 
+annotation
+ - if ( SSID == null ) <nl> - return false ; 
+ - return " Buildout Support " ; <nl> + return " Buildout " ; 
+ - new MainReactPackage ( ) ) ; <nl> + new MainReactPackage ( ) <nl> + ) ; 
+ + <nl> space
+ - PropsKeys . DYNAMIC_DATA_LISTS_ERROR_TEMPLATE , true ) ; <nl> + PropsKeys . PORTLET_DISPLAY_TEMPLATES_ERROR , true ) ; 
+annotation
+ + <nl> space
+ + worker . setDaemon ( true ) ; 
+ + setResizable ( false ) ; 
+ - " saxReaderUtil " , <nl> + " saxReader " , 
+ - <nl> - 
+ - return mAttacher . getDrawMatrix ( ) ; <nl> + return mAttacher . getDisplayMatrix ( ) ; 
+ + DiagnosticGroups . registerGroup ( " lateProvide " , <nl> + ProcessClosurePrimitives . LATE_PROVIDE_ERROR ) ; <nl> + 
+ + ExecHandleState getState ( ) ; <nl> + 
+ - System . out . println ( new File ( dataDir , name + " . dat " ) ) ; 
+ + COCOA_TREE , <nl> + 
+ - return shortcutsById ( IdeActions . ACTION_EDITOR_MOVE_LINE_START ) ; <nl> + return shortcutsById ( IdeActions . ACTION_EDITOR_MOVE_LINE_END ) ; 
+ - return helper . wrapAllInplace ( delegateService . build ( ) ) ; <nl> + return delegateService . build ( ) ; 
+ - System . out . println ( " SEARCH " ) ; 
+ + <nl> space
+ + time = System . currentTimeMillis ( ) ; 
+ + Process . setThreadPriority ( Process . THREAD_PRIORITY_BACKGROUND ) ; <nl> + 
+ - setupJMF ( ) ; 
+ - public class Main { <nl> + class Main { 
+ - import java . util . Enumeration ; 
+ + <nl> + <nl> + 
+ - PsiElement object , <nl> + PsiElement object , 
+ + installedPluginsModel . modifyData ( pluginsList ) ; 
+ - setProgressBarIndeterminateVisibility ( ! finished ) ; <nl> + 
+ + sendCloseSystemWindows ( ) ; 
+ - super . onSaveInstanceState ( outState ) ; <nl> + super . onSaveInstanceState ( outState ) ; 
+ + myUseAuthorFilter . addActionListener ( filterListener ) ; 
+ + break ; 
+ + if ( GraphicsEnvironment . isHeadless ( ) ) return ; <nl> + 
+ - public Object getMkp ( ) { <nl> + } public MarkupBuilderHelper getMkp ( ) { 
+ + <nl> + <nl> + 
+ - protected SQLTemplates templates = configuration . getTemplates ( ) ; <nl> - 
+ + <nl> space
+ + <nl> space
+ - public Developer getDevelope ( ) { <nl> + } public Developer getDeveloper ( ) { 
+ - public class QuasarURLClassLoaderHelper { <nl> + public final class QuasarURLClassLoaderHelper { 
+ + case ExifInterface . ORIENTATION_UNDEFINED : 
+ - <nl> - System . err . println ( transitionIndex ) ; <nl> - 
+ + <nl> space
+ + <nl> + public String toString ( ) { <nl> + return super . toString ( ) + " presence : " + presence ; <nl> + } 
+ - if ( ! started ) { <nl> + if ( ! started ) { 
+ + <nl> + <nl> + <nl> + <nl> + <nl> + <nl> + 
+ + <nl> space
+ + ( ( SuspendManagerImpl ) getSuspendManager ( ) ) . popContext ( context ) ; 
+ - <nl> - 
+ - import java . util . Locale ; 
+ + <nl> + super . setText ( getText ( ) ) ; 
+ - title = " " ; <nl> + this . title = " " ; 
+ - private int mBackKeyAction = BACK_KEY_SENDS_ESC ; <nl> + private int mBackKeyAction = BACK_KEY_STOPS_SERVICE ; 
+annotation
+ - return _routes ; <nl> + return new ArrayList < > ( _routes ) ; 
+ + <nl> space
+ - import android . os . Binder ; 
+ + isDisposeRegistered = false ; 
+annotation
+ - double channelThres = 5 ; <nl> + double channelThres = 10 ; 
+ - return getNode ( ) . getElementType ( ) . toString ( ) ; <nl> + return getElementType ( ) . toString ( ) ; 
+ + import org . junit . Ignore ; 
+ + } else { <nl> + rootView . setWillNotDraw ( true ) ; 
+ - import java . io . File ; 
+ - return item . getName ( ) ; <nl> + return item . hashCode ( ) ; 
+ - mLastEventTime = SystemClock . uptimeMillis ( ) ; 
+ - mGranularityEnabled = true ; <nl> + mGranularityEnabled = enabled ; 
+ - error ( message , th ) ; <nl> + LOGGER . error ( message , th ) ; 
+ + if ( nativeLibraryPath == null ) return false ; 
+ + import android . widget . ScrollView ; 
+ - public class Var implements IFn { <nl> + public final class Var implements IFn { 
+ - protected static long TIMEOUT_MS = 100 ; <nl> + protected static long TIMEOUT_MS = 200 ; 
+ + exportImportConfigurationLocalService . <nl> + deleteGroupExportImportConfigurations ( group . getGroupId ( ) ) ; <nl> + 
+ - <nl> + 
+ + <nl> space
+ + initializeTaskListMetadata ( ) ; 
+ - return false ; <nl> + return true ; 
+ - return " Built - in command . Exits the client " ; <nl> + return " Exits the client " ; 
+ + this . objectFactory . configure ( config ) ; 
+ + f . refresh ( false , false ) ; 
+ - if ( globalContext != null ) <nl> - return ; 
+ - private final DB db ; 
+ - public boolean interlineWithPreviousLeg = false ; <nl> + public Boolean interlineWithPreviousLeg ; 
+ - private String status ; <nl> + private String status = " initializing " ; 
+ - showCameraPreview ( ) ; 
+ - } 
+ - transportServer . shutdown ( ) ; <nl> + transportServer . shutdown ( ) ; 
+ - fireTableDataChanged ( ) ; <nl> + fireTableRowsDeleted ( idx , idx ) ; 
+annotation
+ + streamReader . close ( ) ; 
+ - public static class SubscriptionCallbackApi21 extends SubscriptionCallback { <nl> + static class SubscriptionCallbackApi21 extends SubscriptionCallback { 
+ - notifyBroadcastListener ( ) ; 
+ - accessed ( accessTime ) ; <nl> + in . accessed ( accessTime ) ; 
+ - jedis . flushAll ( ) ; 
+ - private static final int PRIORITY_MAX = 2 ; <nl> + private static final int PRIORITY_MAX = 3 ; 
+ - return FilterChainOrder . AUTHENTICATION_PROCESSING_FILTER ; <nl> + return FilterChainOrder . OPENID_PROCESSING_FILTER ; 
+ - handleRemoveListLocked ( ) ; 
+ - clearCache ( model ) ; 
+ - if ( isRestricted ( param ) ) <nl> + if ( isRestricted ( param , mFileName ) ) 
+ - seed = 4139368480425561099l ; <nl> + 
+ - return SystemInfo . isWindows ; <nl> + return ! SystemInfo . isMac ; 
+ - getWindow ( ) . setSoftInputMode ( WindowManager . LayoutParams . SOFT_INPUT_STATE_ALWAYS_HIDDEN ) ; 
+ - <nl> space
+annotation
+ - return child . getWidth ( ) ; <nl> + return isDrawerView ( child ) ? child . getWidth ( ) : 0 ; 
+ - return b . request . getSession ( false ) ; <nl> + return getSession ( false ) ; 
+ + glThread = pgl . glThread ; 
+ + v . setAlpha ( 1f ) ; 
+ + textManager . initRenderer ( ) ; 
+ + public static final String TYPE_CANCEL = " cancel " ; 
+ + return null ; 
+annotation
+ + <nl> space
+ + resetVersionString ( ) ; 
+ - int nodeidx ; <nl> + public int nodeidx ; 
+ - public boolean SHOW_DIALOG ; <nl> + public boolean SHOW_DIALOG = true ; 
+ - private Integer messageBatchSize ; <nl> + private int messageBatchSize ; 
+ - ENDER_PEARL ( 368 ) , <nl> + ENDER_PEARL ( 368 , 16 ) , 
+ - context = pgl . createEmptyContext ( ) ; <nl> + context = - 1 ; 
+ + mStructureChanged = true ; <nl> + markKnownViewsInvalid ( ) ; 
+ + stopRPCServer ( ) ; 
+ + public static final int TYPE_MOBILE = 4 ; 
+ + mPlayer . setLooping ( true ) ; 
+ - builder . startObject ( ) ; <nl> - builder . endObject ( ) ; 
+ - FMLCommonHandler . instance ( ) . beginLoading ( this ) ; 
+annotation
+ - private static final String VERSION = " 0 . 2 . 2 " ; <nl> + private static final String VERSION = " 0 . 3 . 0 " ; 
+ - login ( username , password ) ; <nl> + request . login ( username , password ) ; 
+ - LocalUserChatRoomPresenceChangeEvent . CHAT_ROOM_JOINED ) <nl> + LocalUserChatRoomPresenceChangeEvent . LOCAL_USER_JOINED ) 
+ + Log . d ( " ACCEL " , " accuracy is now " + accuracy ) ; 
+ - return password . hashCode ( ) ; <nl> + return ( password == null ? 0 : password . hashCode ( ) ) ; 
+ + resumeReading ( ) ; 
+ + <nl> + public FloatBuffer getBuffer ( ) { <nl> + return buffer ; <nl> + } 
+ - lp . viewType = mAdapter . getItemViewType ( position ) ; 
+ - private class Chunk < T > <nl> + private static class Chunk < T > 
+ - WaitStrategy . Option . SLEEPING ) ; <nl> + WaitStrategy . Option . BLOCKING ) ; 
+ + processSpeechQueue ( ) ; 
+ - public boolean myIgnoreBooleanExpressions = false ; <nl> + public boolean myIgnoreBooleanExpressions = true ; 
+ - return Math . round ( value * 100 ) / 100 ; <nl> + return Math . round ( value * 100 ) / 100d ; 
+ + UFUNC_LIST . add ( " fabs " ) ; 
+ - context = null ; 
+ - <nl> - public Texture getTexture ( ) { <nl> - return texture ; <nl> - } 
+ + if ( getChildCount ( ) == 0 ) { <nl> + return RecyclerView . NO_POSITION ; <nl> + } <nl> + 
+ - throws PortalException , SystemException { <nl> + throws SystemException { 
+ - public class WebElementCreator { <nl> + class WebElementCreator { 
+ - title = HtmlUtil . escape ( title ) ; <nl> - 
+ - public Type getType ( ) { <nl> + } public Type getType ( ) { 
+annotation
+ - <nl> - 
+ - VoldemortIOUtils . closeQuietly ( null ) ; <nl> + VoldemortIOUtils . closeQuietly ( ( HttpResponse ) null ) ; 
+ + sync ( true ) ; 
+ - ByteArrayOutputStream _responseContent ; <nl> + protected ByteArrayOutputStream _responseContent ; 
+ - buf . clear ( ) ; 
+ - updateLayer ( ) ; <nl> + if ( mLayer != null ) { <nl> + updateLayer ( ) ; <nl> + } 
+ - return values ; <nl> + return new ArrayList < ApplicationMode > ( values ) ; 
+ - public static SystemPropertyRule mDisableHdfsCacheRule = <nl> + public static SystemPropertyRule sDisableHdfsCacheRule = 
+ - private int len ; 
+ + if ( mSelectionActionMode != null ) { <nl> + mSelectionActionMode . invalidateContentRect ( ) ; <nl> + } 
+ - Spark . clearRoutes ( ) ; 
+ - <nl> space
+ + <nl> space
+ - return email ; <nl> + return email == null ? " " : email ; 
+ - public File inputDirectory ; <nl> + public File inputDirectory ; 
+ + buf . flip ( ) ; 
+ - assert isRefreshing ( ) ; 
+annotation
+ - return mPrefs ; <nl> + return mConversationPrefs ; 
+ + super . onCreate ( ) ; 
+ - final byte offset ) { <nl> + final int offset ) { 
+ - readStayAwakeConditions ( ) ; <nl> + readWifiSleepPolicy ( ) ; 
+ - currRequestExpiry = defaultExpiry ; <nl> + currRequestExpiry = HttpGetCache . getDefaultExpiryTime ( ) ; 
+ - public class APNS { <nl> + public final class APNS { 
+ - final static private int numItemsToRender = 3 ; <nl> + final static private int numItemsToRender = 5 ; 
+ - private String parentKey ; 
+ - import rajawali . util . RajLog ; 
+ + public static String DIRECTORY_SEPARATOR = Constants . DIRECTORY_SEPARATOR ; 
+ - private KeyChanger keyChanger ; <nl> + private final KeyChanger keyChanger ; 
+ + scrollPane . setBorder ( BorderFactory . createEmptyBorder ( 0 , 0 , 0 , 0 ) ) ; 
+ + getSketchbookTemplatesFolder ( ) . mkdirs ( ) ; 
+ - return " refactoring . introduceConstant " ; <nl> + return " python . reference . introduceConstant " ; 
+ + if ( mNativeClass == 0 ) return null ; 
+ - import dagger . ObjectGraph ; 
+ - <nl> + String name ; <nl> + int level ; 
+ + server . getMongoBridge ( ) . removeIndexDateRange ( indexName ) ; 
+ + invalidate ( ) ; 
+ + setConverged ( false ) ; 
+ - public static final int DEFAULT_TIMEOUT_MS = 2500 ; <nl> + public static final int DEFAULT_TIMEOUT_MS = 3000 ; 
+ + fragmentedOpCode = - 1 ; 
+ + initActionBar ( ) ; 
+ - mbCategoryPersistence . update ( curCategory , false ) ; <nl> + mbCategoryPersistence . update ( curCategory ) ; 
+ - return mService . mWindowManager . screenshotApplications ( w , h ) ; <nl> + 
+annotation
+ - return pluginContextPath ; <nl> + return pluginContextPath != null ? pluginContextPath : BLANK_STRING ; 
+ - import android . util . Log ; 
+ - return HttpUtils . joinParas ( parasMap ) ; <nl> + return HttpUtils . joinParasWithEncodedValue ( parasMap ) ; 
+ - mMediaController . show ( 0 ) ; <nl> + if ( mMediaController != null ) { <nl> + mMediaController . show ( 0 ) ; <nl> + } 
+ + worker . interrupt ( ) ; 
+ + mLastPausedActivity = null ; 
+ - SoLoaderShim . loadLibrary ( " gnustl_shared " ) ; 
+ - revalidate ( ) ; <nl> + revalidate ( ) ; 
+ + return true ; 
+ - import com . iluwatar . delegation . simple . printers . App ; 
+ + contextSelectBox . setSelectedIndex ( - 1 ) ; 
+ + parms . _seed = 11233 ; 
+ + executor . shutdownNow ( ) ; 
+ + <nl> + VMRuntime . registerSensitiveThread ( ) ; 
+ + popPostDetail ( ) ; 
+ - <nl> space
+ + <nl> space
+ - parameters . setHeaders ( headers ) ; 
+ - } <nl> + } 
+ + <nl> space
+ - protected final OutputBuffer outputStreamOutputBuffer ; <nl> + protected OutputBuffer outputStreamOutputBuffer ; 
+ + Disposer . register ( myProject , myDockContainer ) ; 
+ - import java . util . HashMap ; <nl> - 
+ - <nl> space
+ - import static org . junit . Assert . assertTrue ; <nl> - 
+ - layout . setChecked ( true ) ; 
+ + public static final long TRACE_TAG_REACT_APPS = 0L ; 
+ + <nl> + lastPictureOrientation = - 1 ; 
+ + getSupportActionBar ( ) . setDisplayHomeAsUpEnabled ( true ) ; 
+ - return memory . duplicate ( ) ; <nl> + return memory ; 
+ - return first ( ) ; <nl> + return first ; 
+ - private boolean running = true ; <nl> + private volatile boolean running = true ; 
+ - initialize ( ) ; <nl> + delegateRunner = new JUnit38ClassRunner ( klass ) ; 
+ - return null ; <nl> + return " project . scopes " ; 
+ - protected class SocketInputBuffer implements InputBuffer { <nl> + private class SocketInputBuffer implements InputBuffer { 
+ - import static org . junit . Assert . assertFalse ; 
+ + myContext . setProjectBuilder ( myModuleBuilder ) ; 
+ - fragment . onAttach ( mContext ) ; 
+ - if ( line <= 0 ) <nl> + if ( line < 0 ) 
+ - import java . io . ByteArrayInputStream ; 
+ - import data . media . Image ; <nl> - import data . media . Media ; 
+annotation
+ - mWindowPtr = 0 ; <nl> + mWindowPtr = null ; 
+ - return versionMessage ; <nl> + return conn . getVersionMessage ( ) ; 
+ - public static final boolean TRACE_JAVASCRIPT_BRIDGE = false ; 
+annotation
+ - sendAccessibilityEvent ( AccessibilityEvent . TYPE_WINDOW_STATE_CHANGED ) ; <nl> + getRootView ( ) . sendAccessibilityEvent ( AccessibilityEvent . TYPE_WINDOW_STATE_CHANGED ) ; 
+ - return " Resources . newByteSource ( " + url + " ) " ; <nl> + return " Resources . asByteSource ( " + url + " ) " ; 
+ - } catch ( Exception e ) { <nl> + } catch ( SecurityException e ) { 
+ + chatMsg . setText ( " " ) ; 
+ + comet = false ; 
+ + if ( feedfile != null ) { <nl> + feedfileType = feedfile . getTypeAsInt ( ) ; <nl> + } 
+ + import net . minecraft . src . CreativeTabs ; 
+ + sslEngine = null ; 
+ - <nl> space
+ + <nl> space
+ - return schematic ; <nl> - } else { <nl> + } else { <nl> + return schematic ; 
+ - public static final boolean ASTRID_LITE = true ; <nl> + public static final boolean ASTRID_LITE = false ; 
+ + private static final long serialVersionUID = 1L ; <nl> + 
+ + <nl> space
+ - return true ; <nl> + return false ; 
+ - . or ( CxxCompilationDatabaseFormat . NUCLIDE ) ; <nl> + . or ( CxxCompilationDatabaseFormat . CLANG ) ; 
+ + buffer . recycleBuffer ( ) ; 
+ - <nl> + 
+ - return getService ( ) . hasPrimaryClip ( ) ; <nl> + return getService ( ) . hasClipboardText ( ) ; 
+ - this . latch = new Semaphore ( 1 ) ; <nl> + this . latch = new Semaphore ( 0 ) ; 
+ - <nl> space
+ + mDatabaseHolder = null ; 
+ - return GroupNames . CLASS_LAYOUT_GROUP_NAME ; <nl> + return GroupNames . VISIBILITY_GROUP_NAME ; 
+ + HAPTIC_FEEDBACK_ENABLED , <nl> + SOUND_EFFECTS_ENABLED , <nl> + TEXT_SHOW_PASSWORD , 
+ - return true ; <nl> + return fileType instanceof LanguageFileType ; 
+ - listener . onResponse ( new ClusterStateUpdateResponse ( true ) ) ; <nl> + listener . onResponse ( new ClusterStateUpdateResponse ( false ) ) ; 
+ + mLastPausedActivity = null ; 
+ - private final static class Filter implements BroadcastFilter { <nl> + public final static class Filter implements BroadcastFilter { 
+ - <nl> - 
+ + String HTTP_BASE_URI = " CamelHttpBaseUri " ; 
+ - mContext . getResources ( ) . getDrawable ( resId ) ; <nl> + setLogo ( mContext . getResources ( ) . getDrawable ( resId ) ) ; 
+annotation
+ + private BlockOutStream mBlockOutStream = null ; <nl> + 
+ - blogName = " ( No Blog Title ) " ; <nl> + blogNames [ blogCtr ] = " ( No Blog Title ) " ; 
+ - return true ; <nl> + return false ; 
+ - import javax . security . auth . login . LoginException ; 
+ - Thread . dumpStack ( ) ; 
+ - return " refactoring . extract . superclass . dialog " ; <nl> + return " python . reference . extractSuperclass " ; 
+ - public boolean isValid ( ) { <nl> + } public boolean isValid ( ) { 
+ + <nl> + public void requestFBOLayer ( ) { <nl> + enableFBOLayer ( ) ; <nl> + } <nl> + <nl> + 
+ - return ( ( NioEndpoint ) getEndpoint ( ) ) . getThreadPriority ( ) ; <nl> + return ( ( NioEndpoint ) getEndpoint ( ) ) . getPollerThreadPriority ( ) ; 
+annotation
+ + UIUtil . applyRenderingHints ( g ) ; 
+ + assertFalse ( o1 . equals ( new Object ( ) ) ) ; 
+ - boolean mExpanded = true ; <nl> - 
+ + public static final String fmlMarker = " This is an FML marker " ; 
+ - private boolean force ; <nl> + protected boolean force ; 
+ - static final boolean USE_OPENGL = false ; <nl> + static final boolean USE_OPENGL = true ; 
+ + if ( d == mBGDrawable ) { <nl> + return ; <nl> + } <nl> + 
+ - <nl> space
+ + mDrawerState = menuOpen ? STATE_OPEN : STATE_CLOSED ; 
+ - date = null ; <nl> + this . date = null ; 
+ + copy . emptyStack ( ) ; 
+ - <nl> + <nl> + public WebHistoryItem ( ) { 
+ - return R . drawable . bubble_white ; <nl> + return R . style . Bubble_TextAppearance_Dark ; 
+ - clearDiskCache ( ) ; <nl> + 
+ - } <nl> + } 
+ - " com_liferay_documentselector_web_portlet_DocumentSelectorPortlet " ; <nl> + " com_liferay_document_selector_web_portlet_DocumentSelectorPortlet " ; 
+ - size = 1f ; <nl> + size = 10f ; 
+ + public static final int BATTERY_PROP_CAPACITY = 4 ; 
+ + <nl> + String JAVA_UTIL_CONCURRENT_FUTURE = " java . util . concurrent . Future " ; 
+ - import java . util . ArrayList ; 
+ - private static boolean debugTime = true ; <nl> + private static boolean debugTime = false ; 
+ + <nl> space
+ + <nl> space
+ + Log . d ( TAG , " [ DrawerState ] Unknown : " + state ) ; 
+ - NETHER_WATER ( 115 ) , <nl> + NETHER_WARTS ( 115 ) , 
+ - private Insets mInsets ; <nl> + private Insets mInsets = Insets . NONE ; 
+ + SubscriptionAnnotationUtils . unsubscribeAllAnnotated ( this ) ; 
+ - private static final int AUTOSAVE_INTERVAL_MILLIS = 30000 ; <nl> + private static final int AUTOSAVE_INTERVAL_MILLIS = 5000 ; 
+annotation
+ - protected enum State { <nl> + public enum State { 
+ - onLineNumber ( statement , " visitTryCatchFinally " ) ; 
+ + db . execSQL ( file ) ; 
+ + public static final int BUCKET_VOLUME = 1000 ; 
+ - " error . lambda . args . tooFew " , <nl> + " lambdaExpression . tooFewArgs " , 
+ - return TOKENIZE_AND_SSPLIT ; <nl> + return parser . requiresTags ( ) ? TOKENIZE_SSPLIT_POS : TOKENIZE_AND_SSPLIT ; 
+ - FileEntry . class , <nl> + DLFileEntry . class , 
+ + <nl> space
+ - private TachyonConf mClientConf ; 
+ - <nl> space
+ - return jingleNodesServiceNode ; <nl> + synchronized ( jingleNodesSyncRoot ) <nl> + { <nl> + return jingleNodesServiceNode ; <nl> + } 
+ - public class AccountTestSuite extends KillbillTestSuite { <nl> + public abstract class AccountTestSuite extends KillbillTestSuite { 
+ + if ( DatabaseDescriptor . getAuthenticator ( ) instanceof AllowAllAuthenticator ) <nl> + return ; <nl> + 
+ - boolean mShowWhen ; <nl> + boolean mShowWhen = true ; 
+ + myTree . updateUI ( ) ; 
+ - <nl> space
+ - protected int doRead ( ) throws Exception { <nl> + protected int doRead ( ChannelBufferHolder < Object > buf ) throws Exception { 
+ - super ( ) ; <nl> + super ( 123 ) ; 
+ + myTreeTable . getTree ( ) . updateUI ( ) ; 
+ - MyBaseAdapter adapter ; <nl> + ListAdapter adapter ; 
+ - cellBounds . y = 0 ; 
+ - return groupId == ANYONE_GROUP_ID ; <nl> + return groupId == null ; 
+annotation
+ - <nl> + topology . validate ( ) ; 
+ + id = HtmlUtil . getAUICompatibleId ( id ) ; <nl> + 
+annotation
+ - <nl> space
+ - speed = avgSpeed ; 
+ + <nl> space
+ - addExpandedWindow ( ) ; 
+ + exitWithSuccess ( options ) ; 
+ - return JavaSdkImpl . getMockJdk ( " java 1 . 5 " ) ; <nl> + return JavaSdkImpl . getMockJdk15 ( " java 1 . 5 " ) ; 
+ + if ( mInputMethodSession == null ) return ; <nl> + 
+ + public static final int BATTERY_PROP_CURRENT_AVG = 3 ; 
+ - ClassLoader custom ; <nl> + private transient ClassLoader custom ; 
+ + import android . content . Content ; 
+ - return Objects . hashCode ( mType , mSubType , mSubscriberId ) ; <nl> + return Objects . hashCode ( mType , mSubType , mSubscriberId , mRoaming ) ; 
+ - public class PlaceHolder { <nl> + public class PlaceHolder { } 
+ - init ( 2 ) ; <nl> + init ( 1 ) ; 
+ - import org . junit . Test ; 
+ + if ( sidedDelegate == null ) <nl> + { <nl> + return false ; <nl> + } 
+ - System . out . println ( text ) ; 
+ - WebStorage . getInstance ( ) . deleteAllDatabases ( ) ; <nl> + WebStorage . getInstance ( ) . deleteAllData ( ) ; 
+annotation
+ + if ( element != null ) { <nl> + return getClassNameForJvm ( ( PsiClass ) element ) ; <nl> + } <nl> + 
+ + updateSpinners ( ) ; 
+ - <nl> space
+ - private Version ( ) { } <nl> + private Version ( ) { } 
+ + target = null ; 
+annotation
+ + <nl> space
+ - import java . io . IOException ; 
+ - public class RealmTest extends AndroidTestCase { <nl> + public class ParameterizedTestExample extends AndroidTestCase { 
+ - return inputString . indexOf ( ' . ' ) < 0 ; <nl> + return true ; 
+ + mWebView . getSettings ( ) . setJavaScriptEnabled ( true ) ; 
+annotation
+annotation
+ - import java . io . FileNotFoundException ; 
+ + finish ( ) ; 
+ - Log . d ( LOGTAG , " called delete account " ) ; 
+ - private boolean statisticsEnabled = false ; <nl> + private boolean statisticsEnabled = true ; 
+ - redisson . getKeys ( ) . flushdb ( ) ; <nl> - redisson . shutdown ( ) ; 
+ + graphics . setSize ( width , height ) ; 
+ + <nl> space
+ - if ( state == State . IDLE ) { <nl> - state = State . CLOSED_FINAL ; <nl> - } <nl> + stateChange ( State . IDLE , State . CLOSED_FINAL ) ; 
+ - switch ( getAspectRatio ( ) ) { <nl> + switch ( mI . getAspectRatio ( ) ) { 
+ + Files . delete ( zip ) ; 
+ - private static boolean debugTime = true ; <nl> + private static boolean debugTime = false ; 
+ - <nl> space
+ - protected MustacheWriter ( Writer writer ) { <nl> + public MustacheWriter ( Writer writer ) { 
+ - assert value instanceof GraphCommitCell ; 
+ - final Node node ; <nl> + public final Node node ; 
+ + lastTouched = System . currentTimeMillis ( ) ; <nl> + 
+ - System . out . println ( " d1 " ) ; 
+ - mBatteryStatus = BATTERY_STATUS_FULL ; <nl> + mBatteryStatus = BATTERY_STATUS_UNKNOWN ; 
+ - String one ; <nl> + public String one ; 
+ - sqlBuilder . value ( expression ) ; <nl> + sqlBuilder . colvalue ( expression ) ; 
+ + <nl> space
+ - } else { <nl> - imageView . setImageBitmap ( loadedImage ) ; 
+ - <nl> + this . shellServer = null ; <nl> + NeoJvmInstance . start ( null , storeDir , true ) ; 
+ + if ( null == drmInfo ) { <nl> + return ERROR_UNKNOWN ; <nl> + } 
+ + return ; 
+ - <nl> + 
+ + <nl> + public String toString ( ) { <nl> + return toList ( ) . toString ( ) ; <nl> + } 
+ - public class Schedulers { <nl> + public final class Schedulers { 
+ + updateCacheInfo ( mType ) ; 
+ - return mService . mWindowManager . screenshotApplications ( w , h ) ; <nl> + 
+ - Log . d ( " BOOM " , " scrollToPosition called : " + position ) ; 
+ - <nl> - <nl> - 
+ - super ( id , Material . field_1316_v ) ; <nl> + super ( id , Material . field_76259_v ) ; 
+ - <nl> space
+ + throw new UnsupportedOperationException ( ) ; 
+ + if ( left != null ) { <nl> + left . bringToFront ( ) ; <nl> + } 
+ + GitRepositoryManager . getInstance ( myProject ) . updateAllRepositories ( GitRepository . TrackedTopic . BRANCHES ) ; 
+ - protected final void addPropertyDirect ( String key , Object value ) { <nl> + protected void addPropertyDirect ( String key , Object value ) { 
+ + msgLog . close ( ) ; 
+ - private Class telephonyThreads ; <nl> + private Class < ? > telephonyThreads ; 
+ - public Object getSelectedItem ( ) { <nl> + } public Object getSelectedItem ( ) { 
+ - return 0f ; <nl> + return mElevations [ satIndex ] ; 
+ - addAsyncListener ( listener , servletRequest , servletResponse ) ; <nl> + request . addAsyncListener ( listener , servletRequest , servletResponse ) ; 
+ - import android . view . KeyEvent ; 
+ - return mRxTimeMillis ; <nl> + return mIdleTimeMillis ; 
+ + Reader . resetView ( ) ; 
+ - private final Handler handler ; <nl> + final Handler handler ; 
+annotation
+ + if ( myVersion == null ) { <nl> + checkVersion ( ) ; <nl> + } 
+ + <nl> space
+annotation
+ - lightsAllocated = false ; <nl> - matricesAllocated = false ; <nl> - 
+ - import buildcraft . transport . Gate . GateKind ; 
+ - final ObjectId id = ObjectId . massageToObjectId ( " 50d3332018c6a1d8d1662b61 " ) ; <nl> + final ObjectId id = new ObjectId ( " 50d3332018c6a1d8d1662b61 " ) ; 
+ + emailAddress . setCompanyId ( TestPropsValues . getCompanyId ( ) ) ; 
+ + initializeDefault ( ) ; 
+ - <nl> space
+ - Accounts . listAccounts ( getApplicationContext ( ) ) ; <nl> + Accounts . listAccounts ( this ) ; 
+ + <nl> space
+annotation
+ - visible = true ; <nl> + visible = false ; 
+ + setPropagation ( new CircularPropagation ( ) ) ; 
+ - return 255 ; <nl> + return this . alpha ; 
+ - public Builder addRequestFilter ( ResponseFilter responseFilter ) { <nl> + } public Builder addResponseFilter ( ResponseFilter responseFilter ) { 
+ + if ( ! mReady ) { <nl> + return 0 ; <nl> + } 
+ + stations . remove ( station ) ; 
+ - database . commands ( ) . drop ( ) ; <nl> + database . admin ( ) . drop ( ) ; 
+ + public static final String NEAR = " $ near " ; 
+ + <nl> + tin . close ( ) ; 
+ + refQueue = new ReferenceQueue < Object > ( ) ; 
+ - private ServerSocket myServerSocket ; <nl> + private volatile ServerSocket myServerSocket ; 
+ - <nl> space
+ - private static class SavedState extends BaseSavedState { <nl> + static class SavedState extends BaseSavedState { 
+ - public static final String IS_READ_ONLY = " is_read_only " ; <nl> + public static final String RAW_CONTACT_IS_READ_ONLY = " raw_contact_is_read_only " ; 
+ - mView . setTransitionVisibility ( mFinalVisibility ) ; <nl> + mView . setVisibility ( mFinalVisibility ) ; 
+annotation
+ - _unsyncStringWriter = new UnsyncStringWriter ( true ) ; <nl> + _unsyncStringWriter . reset ( ) ; 
+ - System . out . println ( " HELLO ! ! ! " ) ; 
+ - private String uuid ; <nl> - 
+ - public class DRFClassificationTest extends TestUtil { <nl> + public class DRFTest extends TestUtil { 
+ - import android . animation . Animatable ; 
+ - <nl> - ; 
+ - LocalStore localStore = getLocalStore ( ) ; <nl> - localStore . resetVisibleLimits ( getDisplayCount ( ) ) ; <nl> + getLocalStore ( ) . resetVisibleLimits ( getDisplayCount ( ) ) ; 
+annotation
+ - return ( HttpServletResponse ) response ; <nl> + return response ; 
+ - return element . getTextRange ( ) ; <nl> + return range ; 
+ - private static final int MAX_PACKET_SIZE = 4096 ; <nl> + private static final int MAX_PACKET_SIZE = 8192 ; 
+ + assertNotNull ( c ) ; 
+ - protected double mRotateX , mRotateY , mRotateZ ; <nl> + protected double mRotateX ; <nl> + protected double mRotateY ; <nl> + protected double mRotateZ ; 
+ - clear ( ) ; <nl> + super . clear ( ) ; 
+ + MtpConstants . FORMAT_ASSOCIATION , <nl> + MtpConstants . FORMAT_ABSTRACT_AV_PLAYLIST , 
+ - public AndroidParcelableExtension ( Types types ) { <nl> + AndroidParcelableExtension ( Types types ) { 
+ - return null ; <nl> + return " Undertow 1 . 0 . Alpha1 " ; 
+ - super . setId ( id ) ; <nl> + super . setId ( id , true ) ; 
+ - static abstract class HeadHandler implements ChannelOutboundHandler { <nl> + abstract static class HeadHandler implements ChannelOutboundHandler { 
+ - import java . lang . reflect . Field ; <nl> - <nl> + import android . app . Activity ; 
+ - <nl> + <nl> + private ConsoleService consoleService ; 
+ - import java . net . InetSocketAddress ; 
+ - <nl> space
+ + graphdb . cleanContent ( ) ; 
+ - setDbg ( true ) ; <nl> + setDbg ( false ) ; 
+ + <nl> space
+annotation
+ + animation = null ; 
+annotation
+annotation
+ - return getName ( ) . isEmpty ( ) ; <nl> + return ! getParent ( ) . isPresent ( ) ; 
+ - private class EmptyIterator implements Iterator { <nl> + private static class EmptyIterator implements Iterator { 
+ + <nl> space
+annotation
+ - this . mMediaPlayer . seekTo ( 0 ) ; 
+annotation
+ + callTouchListener ( ) ; 
+ - private int calculateSize ( boolean force ) { <nl> + protected int calculateSize ( boolean force ) { 
+ - private boolean useNewByteCodeGenerator = true ; 
+ - private static class WeakCharEntryMap extends ReferenceMap { <nl> + private static final class WeakCharEntryMap extends ReferenceMap { 
+ - <nl> space
+ - import java . io . BufferedWriter ; 
+ - public class MortarContextWrapper extends ContextWrapper implements HasMortarScope { <nl> + class MortarContextWrapper extends ContextWrapper implements HasMortarScope { 
+ - <nl> space
+ - <nl> space
+ - private int numTries = 4 ; <nl> + private int numTries = 0 ; 
+ - return true ; <nl> + return false ; 
+ + initializeTaskListMetadata ( ) ; 
+ - import org . apache . commons . codec . binary . Base64 ; <nl> - 
+ - if ( hasCollapsibleActionView ( ) ) { <nl> + if ( ! hasCollapsibleActionView ( ) ) { 
+ + cancelCurrentAnimation ( ) ; 
+ - createJarInputStream ( ) ; <nl> + jarInputStream = createJarInputStream ( ) ; 
+ - return false ; <nl> + return true ; 
+ - return myFile ; <nl> + return isValid ( ) ? myFile : null ; 
+ - return true ; <nl> + return ! mLocalMatrix . isIdentity ( ) ; 
+ - return this . children ( ) ; <nl> + return this . children ; 
+ - completed . countDown ( ) ; <nl> + completed . countDown ( ) ; 
+ + if ( getPathInfo ( ) == null ) { <nl> + return null ; <nl> + } <nl> + 
+ - book . save ( ) ; 
+ - <nl> - getDisplayState ( ) . restored = true ; <nl> - onCurrentDirectoryChanged ( ANIM_NONE ) ; 
+ + " objc_library " , 
+ - return 40 ; <nl> + return 41 ; 
+ + } 
+ - return fairness == ResourceAllocationFairness . FAIR ; <nl> + return fairness == ResourceAllocationFairness . FAST ; 
+annotation
+ - import java . util . Map ; 
+ - String getWhereClause ( ) { <nl> + String getWhereCond ( ) { 
+ - import java . util . ArrayList ; 
+ + break ; 
+ - <nl> space
+annotation
+ - return null ; <nl> + return ImmutableList . of ( ) ; 
+ + putClientProperty ( " html . disable " , true ) ; 
+ + mPlayingBackwards = false ; 
+ - getGL ( glDrawable ) ; <nl> + 
+ + . throwSubscriberException ( true ) 
+ - super ( out ) ; <nl> + super ( out , false ) ; 
+ - checkOldLvcsEnabled ( ) ; <nl> + if ( ! isOldLvcsEnabled ( ) ) return ; 
+ - RuimFileHandler mRuimFileHandler ; 
+ + <nl> space
+ - myProcessHandler = task . createProcess ( ) ; <nl> + myProcessHandler = task . createProcess ( null ) ; 
+ + <nl> space
+ - import android . content . Intent ; 
+ + <nl> space
+ + grantRuntimePermissionsLPw ( wearHomePackage , LOCATION_PERMISSIONS , false , <nl> + userId ) ; 
+ + transient int test ( ) ; 
+ - <nl> + 
+ + replicationClient . shutdown ( ) ; 
+ + setOKButtonMnemonic ( ' P ' ) ; 
+ + public static final int SAME_GROUP = 4 ; <nl> + 
+ - public double nextStandNormalDistrDouble ( ) { <nl> + } public double nextGaussian ( ) { 
+ - return ClassHelper . long_TYPE ; <nl> + return ClassHelper . double_TYPE ; 
+ - return " cvs . selectionHistory " ; <nl> + return " reference . versionControl . toolwindow . history " ; 
+annotation
+ - return e . getPermission ( ) . allows ( modes ) ; <nl> + return e . canTraverse ( modes ) ; 
+ + mPaintFooterLine . setStrokeWidth ( mFooterLineHeight ) ; 
+ - private PhoneAccountHandle mPhoneAccount ; <nl> + protected PhoneAccountHandle mPhoneAccount ; 
+ - <nl> - System . out . println ( name + " : " + retVal ) ; <nl> - 
+ + case ENCODING_PCM_FLOAT : <nl> + return 4 ; 
+ - public static interface Item { <nl> + } public interface Item { 
+ - private static final int PROFILE_MAX_FRAMES = 64 ; <nl> + private static final int PROFILE_MAX_FRAMES = 128 ; 
+annotation
+ + appendCurrentBuffer ( Config . USER_BUFFER_PER_PARTITION_BYTES ) ; <nl> + 
+ - <nl> space
+ + <nl> space
+ - <nl> + 
+ + import kotlin . jvm . functions . Function0 ; <nl> + 
+ - private static final boolean DBG = true ; <nl> + private static final boolean DBG = false ; 
+ - import com . sun . deploy . cache . CacheEntry ; <nl> - 
+ + getExpandableListView ( ) . setAdapter ( listAdapter ) ; 
+annotation
+ - return " 4 . 5 " ; <nl> + return " 4 . 5 . 1 " ; 
+ - return " Console Folding " ; <nl> + return " Console " ; 
+ - return name ; <nl> + return " metrics " ; 
+annotation
+ + <nl> + protected void setCurrent ( Object current ) { <nl> + this . current = current ; <nl> + } 
+ - return exchange . getRequestMethod ( ) . toString ( ) ; <nl> + return exchange . getRequestScheme ( ) ; 
+ - " abcdefghijklmnopqrstuvwzyz " + <nl> + " abcdefghijklmnopqrstuvwxyz " + 
+ - return myAlwaysUseDefault ? ! myDetachIsDefault : myDontTerminate ; <nl> + return myAlwaysUseDefault ? myDetachIsDefault : myDontTerminate ; 
+ - log . info ( " Getting " + tableModel . getElement ( index ) ) ; 
+ - instance . destroy ( ) ; <nl> + 
+ - return flow . flowDirection . equals ( flow ) ; <nl> + return flowDirection . equals ( flow . flowDirection ) ; 
+ + return eclipseFile ; <nl> + return antFile ; 
+ - doTest ( 2 ) ; <nl> + doTest ( 1 ) ; 
+ + public String getContextName ( ) ; <nl> + 
+ + timetable . raptorData = this ; 
+ - _openOnTapEnabled = _openOnTapEnabled ; <nl> + openOnTapEnabled = _openOnTapEnabled ; 
+ - return memory ; <nl> + return memory . duplicate ( ) ; 
+ - <nl> - public PreferenceManager ( Activity activity , int firstRequestCode ) { <nl> + PreferenceManager ( Activity activity , int firstRequestCode ) { 
+ - <nl> space
+ - fr . delete ( ) ; <nl> + frame . delete ( ) ; 
+ + case UNDEFINED : 
+ + getNavBarUI ( ) . clearItems ( ) ; 
+ - mScale = scale ; <nl> + mScale . setAll ( scale ) ; 
+ - private static final Context NO_CONTEXT = new Context ( ) ; <nl> + protected static final Context NO_CONTEXT = new Context ( ) ; 
+ + <nl> space
+ - public long getMaxSize ( ) { <nl> + } public synchronized long getMaxSize ( ) { 
+ - if ( handled ) { <nl> - adapter . notifyDataSetChanged ( ) ; <nl> - } 
+ + renderTarget . create ( ) ; 
+annotation
+ - System . out . println ( response ) ; 
+ + <nl> + public void setDependencyMet ( boolean met ) { <nl> + <nl> + } 
+annotation
+ + ensureOpen ( ) ; <nl> + 
+ + super . addToCollector ( collector ) ; 
+ - return 64 ; <nl> + return 1 ; 
+ + setFilterSearch ( true ) ; 
+ - return Service . START_STICKY ; <nl> + return Service . START_NOT_STICKY ; 
+ + docDisplay_ . ensureCursorVisible ( ) ; 
+ + clearThrottleAndNotification ( ) ; 
+ - <nl> + setProductionModuleName ( state . moduleName ) ; 
+ - private static final String MISSING_PHRASAL = " DUMMYP " ; <nl> - private static final String MISSING_POS = " DUMMY " ; 
+ - result . asked = false ; <nl> + result . asked = true ; 
+ - protected ByteBuf cumulation ; <nl> + ByteBuf cumulation ; 
+ + for ( Thread writer : writers ) { <nl> + writer . join ( 6000 ) ; <nl> + } 
+ + myVisiblePack = VisiblePack . EMPTY ; 
+ + editorComp . requestFocusInWindow ( ) ; <nl> + 
+annotation
+ + public boolean isEnabledByDefault ( ) { <nl> + return true ; <nl> + } <nl> + <nl> + 
+ + public static final int TYPE_MMS = 20 ; 
+ - public class ClearScrollRequest extends ActionRequest { <nl> + public class ClearScrollRequest extends ActionRequest < ClearScrollRequest > { 
+ - System . out . println ( entry . getKey ( ) ) ; 
+ - upperMeta = rotateMeta ( upperMeta ) ; 
+ + <nl> + mHeaderOffset = 1 ; 
+ - <nl> - hookAll ( XClipboardManager . getInstances ( null ) ) ; <nl> - 
+ + setFile ( directory ) ; 
+ + sql . append ( mLimit ) ; 
+ - public static final int DISPLAY_PHOTO_SIZE = 800 ; <nl> + public static final int DISPLAY_PHOTO_SIZE = 640 ; 
+ - unregisterReceiver ( mPackageBroadcastReceiver ) ; 
+ - mThumbPosition = checked ? getThumbScrollRange ( ) : 0 ; <nl> + mThumbPosition = isChecked ( ) ? getThumbScrollRange ( ) : 0 ; 
+ + JUNGLE , <nl> + 
+ - fail ( " Unexpected exception : " + t . getMessage ( ) , t ) ; 
+ + db . close ( ) ; 
+ - import android . util . Log ; 
+ - private int mCurrentMonthDisplayed ; <nl> + private int mCurrentMonthDisplayed = - 1 ; 
+ + backupAgentName = orig . backupAgentName ; 
+ + <nl> space
+ + mSensorEventListener . reset ( ) ; 
+ - return null ; <nl> + return " preferences . ExternalDocumentation " ; 
+annotation
+ - import java . util . Set ; 
+ - public void save ( String filename ) { <nl> + } public boolean save ( String filename ) { <nl> + return false ; 
+ + <nl> space
+ - mPaint . setColor ( selectedColor & 0xFFFFFF ) ; <nl> + mPaint . setColor ( selectedColor ) ; 
+ + ta . recycle ( ) ; 
+ - private class AddToVector implements IntDoubleProcedure { <nl> + private static class AddToVector implements IntDoubleProcedure { 
+ - <nl> - 
+ - <nl> space
+ + <nl> + <nl> + public String getPathParameterEncoded ( String name ) { <nl> + return this . getPathParameterEncoded ( name ) ; <nl> + } 
+ + if ( topView == null ) { <nl> + return null ; <nl> + } 
+ - import java . sql . SQLException ; 
+ + <nl> space
+annotation
+ - sleeper . sleep ( 1000 ) ; <nl> + sleeper . sleep ( ) ; 
+ - configureMenu ( mMenu ) ; <nl> + invalidateOptionsMenu ( ) ; 
+ - public static final boolean SETTING_FORCE_VERTICAL_SCREEN = false ; <nl> + public static boolean SETTING_FORCE_VERTICAL_SCREEN = false ; 
+ + System . out . println ( ) ; 
+ - return " refactoring . introduceField " ; <nl> + return " python . reference . introduceField " ; 
+ - <nl> space
+ - <nl> space
+ - System . err . println ( compiler . getCodingConvention ( ) ) ; 
+ - return null ; <nl> + return " reference . settingsdialog . codestyle . json " ; 
+ + private static final long serialVersionUID = 1L ; 
+ - private Sink mMetricsServlet ; 
+ + <nl> space
+ + static final int CMYK = 5 ; 
+ - return first ( ) ; <nl> + return first ; 
+ - <nl> space
+ + <nl> space
+ - <nl> space
+ + super . onTaskDelete ( task ) ; 
+ - sendNotifications ( ) ; 
+ + super . onAttachedToWindow ( ) ; <nl> + 
+ - private static int MAX_POOL_SIZE_FOR_FATALS = 2 ; <nl> + private static int MAX_POOL_SIZE_FOR_FATALS = 100 ; 
+ - ConfigureProviderManager . configureProviderManager ( ) ; <nl> + ConfigureProviderManager . configureProviderManager ( ) ; 
+ + buf . flip ( ) ; 
+ - import java . net . MalformedURLException ; 
+ - protected static BufferPool instance = null ; <nl> + protected static volatile BufferPool instance = null ; 
+ - this . refTokens = refTokens ; <nl> + this . refTokens = new ArrayList < String > ( refTokens ) ; 
+ - import java . nio . ByteBuffer ; 
+ + mHasValidMask = false ; 
+ + dismissProgress ( ) ; 
+ + ITileSource map = this . map ; 
+ - import org . bukkit . ItemStack ; 
+ + <nl> + super . setStatus ( _status ) ; 
+ + super . setSpatial ( spatial ) ; 
+ - import java . io . PrintStream ; 
+ - protected boolean mDividerBelowHeader = false ; <nl> + protected boolean mDividerBelowHeader = true ; 
+ - import hex . GLMTest2 ; 
+ - private ContentQueryMap mSettings ; <nl> - 
+ + mContext . unregisterReceiver ( mBroadcastReceiver ) ; 
+ - public int getTimeZone ( ) { <nl> + } public Integer getTimeZone ( ) { 
+ + import com . wrapp . floatlabelededittext . Utils ; 
+ + import buildcraft . BuildCraftEnergy ; 
+ - return ; 
+ - if ( SSID == null ) <nl> - return false ; 
+ - <nl> + 
+ - return this . refresh ( ) ; <nl> + return this . refreshStats ; 
+ - import de . undercouch . bson4jackson . BsonGenerator ; 
+annotation
+annotation
+ - private static final String VERSION = " 0 . 1 . 3 " ; <nl> + private static final String VERSION = " 0 . 2 . 0 " ; 
+ - import java . util . Iterator ; 
+ + setJMenuBar ( null ) ; 
+annotation
+ + collectiveSliceKeys = null ; 
+ + <nl> space
+ - errorException = ex ; <nl> + errorException = ex ; 
+ + . remove ( SAVE_STATE_KEY_USER_ID ) 
+ - return true ; <nl> + return false ; 
+ - return " json / dsl - platform / minified " ; <nl> + return " minified - json / dsl - platform " ; 
+ - return isTrivial ( ) ; <nl> + return ! isTrivial ( ) ; 
+ - this . version = version ; <nl> + this . version = version == null ? new DateTime ( ) : version ; 
+ - in_progress . set_flags ( first ) ; <nl> + in_progress . set_flags ( first & Msg . more ) ; 
+ + content . setPadding ( 0 , 0 , 0 , 0 ) ; 
+ - ob . write ( s ) ; <nl> + super . print ( s ) ; 
+ - return true ; <nl> + return false ; 
+ - getSession ( ) . stop ( ) ; <nl> + stop ( ) ; 
+ - private LocalSocketImpl impl ; <nl> + private final LocalSocketImpl impl ; 
+ + p . packageName = mContext . getPackageName ( ) ; 
+ + if ( size ( ) == 0 ) return " [ ] " ; 
+ - return myElement . getContainingFile ( ) ; <nl> + return myElement instanceof PsiFile ? null : myElement . getContainingFile ( ) ; 
+ - objectManager . markUnusedObject ( this ) ; <nl> + objectManager . enqueueUnusedObject ( this ) ; 
+ - return RestStatus . CONFLICT ; <nl> + return RestStatus . INTERNAL_SERVER_ERROR ; 
+ - import net . simonvt . menudrawer . BuildConfig ; <nl> - 
+ - return true ; <nl> + return ! inputString . isEmpty ( ) ; 
+ - protected void onRestoreInstanceState ( Parcelable state ) { <nl> + public void onRestoreInstanceState ( Parcelable state ) { 
+ + <nl> space
+ + setOrientation ( ) ; 
+ - return delegate . getType ( field ) ; <nl> + return delegate . getType ( toDelegateField ( field ) ) ; 
+ + myStartTime = - 1 ; 
+ - import sun . security . util . BigInt ; 
+ - onLineNumber ( block , " visitBlockStatement " ) ; 
+annotation
+ - return myPlatformToolsRevision ; <nl> + <nl> + return 7 ; 
+ - public static final boolean EMERGENCY_ASSISTANCE_ENABLED = false ; <nl> + public static final boolean EMERGENCY_ASSISTANCE_ENABLED = true ; 
+ - <nl> + this . shellServer = null ; <nl> + NeoJvmInstance . start ( null , storeDir , true ) ; 
+ - } 
+ + <nl> + <nl> + 
+ - public static int MAX_SEND_ATTEMPTS = 5 ; <nl> + public static int MAX_SEND_ATTEMPTS = 1 ; 
+ + <nl> space
+ - return new EmailIntentSender ( context , config ) ; <nl> + return new EmailIntentSender ( config ) ; 
+ + setBorder ( IdeBorderFactory . createBorder ( ) ) ; 
+ + <nl> + public void restart ( ExecutionVertexID executionVertexID ) { <nl> + } <nl> + 
+annotation
+ - return getDelegate ( ) . getSupportedCipherSuites ( ) ; <nl> + return getDelegate ( ) . getDefaultCipherSuites ( ) ; 
+ + namedLoopContinueLabel . clear ( ) ; 
+ - class RuntimeTestWlalker { <nl> + class RuntimeTestWalker { 
+ - <nl> space
+ + item . toCenter = true ; 
+ - fireTableDataChanged ( ) ; <nl> + fireDataChanged ( ) ; 
+ - if ( true ) <nl> - return true ; 
+ - public class ShortcutBadger { <nl> + public final class ShortcutBadger { 
+ - public class LineageFileSystem extends BaseFileSystem { <nl> + public final class LineageFileSystem extends BaseFileSystem { 
+ - public static final int LARGER_DIMENSION = 1000 ; <nl> + public static final int LARGER_DIMENSION = 1280 ; 
+ + <nl> space
+ + <nl> + 
+ - return getStackFrameProxy ( ) . hashCode ( ) ; <nl> + return myDescriptor . getMethod ( ) ; 
+ - mHaveCreatedBuffers = created ; <nl> + mHaveCreatedBuffers = created ; 
+ - private static final String TAG = " GeoIntentActivity " ; 
+ + closeList . remove ( socket ) ; 
+ - throw new UnsupportedOperationException ( " Read - Only " ) ; <nl> + throw new UnsupportedOperationException ( ) ; 
+ - return Item . Title . toString ( ) ; <nl> + return Item . Title != null ? Item . Title . toString ( ) : " " ; 
+ - checkString ( node , node . getStringValue ( ) ) ; <nl> + checkString ( node , node . getText ( ) ) ; 
+ - System . out . println ( " N = " + _n + " , rank = " + rank ) ; 
+ - public JSONObject getDiffableValue ( ) { <nl> + synchronized } public JSONObject getDiffableValue ( ) { 
+ - private static enum StoreType { <nl> + private enum StoreType { 
+ + DateTimeUtils . setCurrentMillisSystem ( ) ; 
+ - return false ; <nl> + return drawing ; 
+ - this . attr . setUserData ( CACHED_NODE , this , null ) ; 
+ + vertex [ Z ] = 0 ; 
+ - onLineNumber ( block , " visitBlockStatement " ) ; 
+ - throw new RuntimeException ( " Not implemented " ) ; <nl> + <nl> + return null ; 
+ - backgroundHandler . removeCallbacksAndMessages ( token ) ; <nl> + if ( token != null ) { <nl> + backgroundHandler . removeCallbacksAndMessages ( token ) ; <nl> + } 
+ - JSSESupport ( SSLSession session ) { <nl> + public JSSESupport ( SSLSession session ) { 
+ - public static VerificationAfterDelay after ( int millis ) { <nl> + } public static VerificationAfterDelay after ( long millis ) { 
+ - <nl> space
+ - return null ; <nl> + return " reference . versionControl . cvs . options " ; 
+ - <nl> + this . shellServer = null ; <nl> + NeoJvmInstance . start ( null , storeDir , true ) ; 
+ - return null ; <nl> + return authenticationMechanism ; 
+ + comet = false ; 
+ - super ( project , " Project settings " , null ) ; <nl> + super ( project , " Project Settings " , null ) ; 
+ - myIsShowInNewTabEnabled = mustOpenInNewTab ; <nl> + myIsShowInNewTabEnabled = ! mustOpenInNewTab ; 
+ - public JSONException ( String message , Throwable cause ) { <nl> + } public JSONException ( final String message , final Throwable cause ) { 
+ - this . setOrder ( 37 ) ; <nl> + this . setOrder ( 31 ) ; 
+ - return false ; <nl> + return true ; 
+ + <nl> + private StringUtils ( ) { <nl> + <nl> + } 
+ + public boolean fileListenerIsSynchronous ( ) { <nl> + return false ; <nl> + } <nl> + <nl> + 
+ + <nl> space
+ - Iterable createArray ( ) ; <nl> + Object createArray ( ) ; 
+ + LOG . w ( TAG , " Blocked navigation because URL was not whitelisted : " + url ) ; 
+ - import org . mongodb . MongoClient ; 
+ + <nl> space
+ + invalidate ( ) ; <nl> + requestLayout ( ) ; 
+ - return getBooleanValue ( ASYNC_CLIENT + " acceptAnyCertificate " , false ) ; <nl> + return getBoolean ( ASYNC_CLIENT + " acceptAnyCertificate " , false ) ; 
+ + super . setNumber ( number ) ; 
+ - _portletToolbar = null ; 
+ - private final Handler mHandler ; 
+ - <nl> space
+ + <nl> space
+ - static final boolean USE_OPENGL = false ; <nl> + static final boolean USE_OPENGL = true ; 
+ - return unreadConversations ; <nl> + return unreadConversations < 0 ? 0 : unreadConversations ; 
+ + <nl> + 
+ + laserBlock . setBlockName ( " laserBlock " ) ; 
+ - return mWM . isKeyguardSecure ( ) ; <nl> + return mWM . isKeyguardLocked ( ) ; 
+ + acceptAnyCertificate = prototype . isAcceptAnyCertificate ( ) ; 
+ - startGAStartupReport ( ) ; <nl> + if ( GA != null ) <nl> + startGAStartupReport ( ) ; 
+ - ; 
+ + mSessionCleaner . stop ( ) ; 
+ + module . init ( ) ; 
+ + getHash ( book ) ; 
+ - return null ; <nl> + return " command " ; 
+ - public void run ( ) { <nl> + } public void run ( ) { 
+ - <nl> space
+ + mPause = true ; 
+ - mActivities . remove ( r ) ; <nl> + mActivities . remove ( id ) ; 
+ - return true ; <nl> + return local ; 
+ + getProjectProfileImpl ( ) ; 
+annotation
+ - Log . d ( " mobeta " , " drawing divider " ) ; 
+ - return new ArrayList < SyncInfo > ( syncs ) ; <nl> + return syncs ; 
+ - import com . sun . tools . javac . resources . version ; 
+ - _xStream = new XStream ( ) ; 
+ + removeCallbacks ( this ) ; 
+ - <nl> - public void setWorld ( World world ) { <nl> - this . world = world ; <nl> - } 
+ - BlockSuppressalStatus ( boolean isSuppressed , long untilTimestampMillis ) { <nl> + } public BlockSuppressalStatus ( boolean isSuppressed , long untilTimestampMillis ) { 
+annotation
+ - pipeline . remove ( pipeline . get ( " connector " ) ) ; <nl> - 
+ + myTopComponent = null ; 
+ + paths . add ( _rootDir ) ; 
+ + Exceptions . throwIfFatal ( e ) ; 
+ + <nl> + public void setLongClickable ( boolean longClickable ) { { <nl> + getRefreshableView ( ) . setLongClickable ( longClickable ) ; <nl> + } 
+ + removeCallbacks ( mHideRunnable ) ; 
+ - long longCol ; 
+ - break ; <nl> + return ; 
+ - <nl> - setEnabled ( mRouter . isRouteAvailable ( mSelector , <nl> - MediaRouter . AVAILABILITY_FLAG_IGNORE_DEFAULT_ROUTE ) ) ; 
+ - return false ; <nl> + return true ; 
+ - public void onDetachedFromWindow ( ) { <nl> + protected void onDetachedFromWindow ( ) { 
+ - <nl> space
+ + getWindow ( ) . getDecorView ( ) . getBackground ( ) . setAlpha ( 255 ) ; 
+ - return " 3 . 1 " ; <nl> + return " 3 . 2 " ; 
+ + import javarepl . expressions . Type ; 
+ - return " log4j " ; <nl> + return " LogbackModule " ; 
+ - valueTable [ lastIndex ] = 0 ; 
+annotation
+ - super ( context ) ; <nl> + this ( context , null ) ; 
+ - processor . execute ( run , start ) ; 
+ - this . tai = null ; <nl> + this . tai = tai ; 
+ - private final long SHUTDOWN_TIMEOUT_SECONDS = 15 ; <nl> + private static final long SHUTDOWN_TIMEOUT_SECONDS = 15 ; 
+ + netInBuffer . clear ( ) ; 
+ - String key = " key " ; 
+ + jdkLogHandler . setLevel ( Level . ALL ) ; 
+ + <nl> space
+ + size . set ( 0 ) ; 
+ - RedisRunner . startDefaultRedisServerInstance ( ) ; <nl> + RedisRunner . shutDownDefaultRedisServerInstance ( ) ; 
+annotation
+ + public Optional < ImmutableSortedSet < SourcePath > > resources ; 
+ + public ColorFilter getColorFilter ( ) { <nl> + return mColorFilter ; <nl> + } <nl> + <nl> + 
+ - return datagramChannel . socket ( ) . isConnected ( ) ; <nl> + return datagramChannel . isConnected ( ) ; 
+ - return null ; <nl> + return getId ( ) ; 
+ - public static final int DEFAULT_SOCKET_TIMEOUT = 8000 ; <nl> + public static final int DEFAULT_SOCKET_TIMEOUT = 20000 ; 
+ - MINIMIZE_PRIMARY_DEX_SIZE ; <nl> + MINIMIZE_PRIMARY_DEX_SIZE , <nl> + ; 
+ - <nl> + if ( _timer == null ) { <nl> + initTimer ( ) ; <nl> + } 
+ + refreshProgress ( R . id . progress , mProgress , false ) ; 
+ + mappings . close ( ) ; 
+ + <nl> space
+ - import javax . microedition . khronos . egl . EGLContext ; 
+ - public Matrix getCreateFromMatrix ( ) { <nl> + } public Matrix getCreatedFromMatrix ( ) { 
+ + <nl> space
+ - Log . d ( " ACCEL " , " accuracy is now " + accuracy ) ; 
+ - RobolectricTestRunner . logMissingInvokedShadowMethods ( ) ; <nl> + Robolectric . logMissingInvokedShadowMethods ( ) ; 
+ + <nl> space
+ - blackBoxFile ( " regressions / kt475 . jet " ) ; <nl> + 
+ - private volatile int maxConnectionsPerNode = 50 ; <nl> + private volatile int maxConnectionsPerNode = 10 ; 
+ - PsiFile getContainingFile ( ) ; <nl> + PsiFile getContainingFile ( ) ; 
+ + myRebaseEditorNo = null ; 
+ + myBook . setProgressWithNoCheck ( myProgress ) ; 
+ - mCursor . deactivate ( ) ; <nl> - <nl> + mCursor . close ( ) ; 
+ + pageScrolled ( destX ) ; 
+annotation
+ + " / stdlib / TuplesCode . kt " , 
+ + 1 ; <nl> + } 
+ - parseAsValueModelAttribute ( illegalStaticResourceAttributeValue . value ) ; <nl> + parseAsStaticResourceAttribute ( illegalStaticResourceAttributeValue . value ) ; 
+ - private boolean [ ] checkedItems ; <nl> + public boolean [ ] checkedItems ; 
+ + config . setTargetDirectory ( dir ) ; 
+ + <nl> + lightCount = 0 ; <nl> + 
+ - return native_is_measurement_supported ( ) ; <nl> + return GpsLocationProvider . isSupported ( ) ; 
+ + popup . cancel ( ) ; 
+ + components . add ( Component . COMPACTED_MARKER ) ; 
+ - return buffer . get ( ) ; <nl> + return buffer . get ( ) & 0xff ; 
+ + if ( firstChild == null ) break ; 
+ - <nl> space
+ - mongo . close ( ) ; <nl> + mongo . close ( ) ; 
+ - return false ; <nl> + return true ; 
+ - private static final int MIN_DIMENSION_TO_RECUR = 30 ; <nl> + private static final int MIN_DIMENSION_TO_RECUR = 100 ; 
+ - import android . os . DeadObjectException ; 
+ - private class EmptyIterator implements Iterator { <nl> + private static class EmptyIterator implements Iterator { 
+ - setEnabled ( true ) ; <nl> + if ( mCanvas != null ) { <nl> + setEnabled ( true ) ; <nl> + } 
+ - public static final boolean DEBUG = true ; <nl> + public static final boolean DEBUG = false ; 
+ + this ( ) ; 
+ - import water . fvec . Frame ; 
+ + PortalExecutorManagerUtil . shutdown ( getName ( ) , force ) ; 
+ + <nl> space
+ - System . out . println ( Thread . currentThread ( ) + " created node " + node ) ; 
+ + request . bodyGenerator = null ; 
+ - mContext = context ; <nl> + mContext = context . getApplicationContext ( ) ; 
+ - protected boolean _strictJsonCompliance = false ; <nl> + protected boolean _strictJsonCompliance = true ; 
+ - setSelection ( mCurrentAdapterIndex ) ; <nl> + setSelection ( mCurrentAdapterIndex ) ; 
+ - PGraphics graphics ; <nl> + 
+annotation
+annotation
+ - throw new UnsupportedOperationException ( " Not supported yet . " ) ; <nl> + return 0 ; 
+ - public class Builder implements HandlerBuilder { <nl> + } public static class Builder implements HandlerBuilder { 
+ - throw new UnsupportedOperationException ( ) ; <nl> + throw new UnsupportedOperationException ( ) ; 
+ - getFileBytes ( ) ; <nl> + tryGetFileBytes ( ) ; 
+ + <nl> space
+ + <nl> space
+ + <nl> + public int getCount ( ) { <nl> + return count ; <nl> + } 
+ - <nl> space
+ - <nl> space
+ - return new String [ 0 ] ; <nl> + return null ; 
+ + public IRecipe getCurrentRecipe ( ) { <nl> + <nl> + return currentRecipe ; <nl> + } <nl> + 
+ + getParent ( ) . requestDisallowInterceptTouchEvent ( true ) ; 
+ + <nl> + public boolean isDrawing ( ) { <nl> + return drawing ; <nl> + } 
+ - valuesLoaded = false ; 
+ - if ( ! isAvailable ( node ) ) <nl> + while ( ! isAvailable ( node ) ) 
+ + session . continueRequest ( ) ; 
+ + <nl> + public static boolean isInitialized ( ) { <nl> + return sIsInitialized ; <nl> + } 
+ + <nl> space
+ + public View . OnFocusChangeListener getOnFocusChangeListener ( ) { <nl> + return onFocusChangeListener ; <nl> + } <nl> + <nl> + 
+ - public static class SubscriptionCallbackApi21 extends SubscriptionCallback { <nl> + static class SubscriptionCallbackApi21 extends SubscriptionCallback { 
+ + <nl> + import buildcraft . core . inventory . StackHelper ; 
+ + <nl> space
+ - <nl> + instance . destroy ( ) ; 
+ + namedLoopContinueLabel . clear ( ) ; 
+ - <nl> + <nl> + public String getContextPath ( ) ; <nl> + 
+ + <nl> space
+ + public static final int APP_VERSION = 3500 ; <nl> + <nl> + public static final long UNK25 = 7363665268261373700L ; 
+ - <nl> + 
+ - <nl> space
+ - private Object nullPlaceHolder ; 
+ - faceCount = 0 ; <nl> + 
+ - TestTextureArray app = new TestTextureArray ( ) ; <nl> + TestTextureArrayCompressed app = new TestTextureArrayCompressed ( ) ; 
+ - invalidate ( ) ; <nl> + regenerateBackground ( ) ; 
+ - " vending_pending_download_resend_frequency_ms " ; <nl> + " vending_pd_resend_frequency_ms " ; 
+ + <nl> space
+ + <nl> space
+ - return null ; <nl> + return " project . propVCSSupport . VCSs " ; 
+ - public final static boolean DEBUG = true ; <nl> + public final static boolean DEBUG = false ; 
+ - return null ; <nl> + return " preferences . customizations " ; 
+ - <nl> + <nl> + 
+ - current_data . reset ( generateTimestamp ( ) , current ) ; <nl> + current_data . reset ( generateTimestamp ( ) , ( double ) current ) ; 
+annotation
+ - VariableScope scope = compileStack . getScope ( ) ; 
+ - private static class MyStuff { <nl> + private static final class MyStuff { 
+ - startActivityAsUser ( mHomeIntent , UserHandle . CURRENT ) ; <nl> + startActivityAsUser ( intent , UserHandle . CURRENT ) ; 
+ - protected abstract void run ( ) throws UnloggedFailure , Failure , Exception ; <nl> + protected abstract void run ( ) throws Failure , Exception ; 
+ - statement . assertOpen ( ) ; 
+ - import tachyon . conf . MasterConf ; 
+ - DBObject o = ( DBObject ) get ( ) ; <nl> - return o ; <nl> + return ( DBObject ) get ( ) ; 
+ + compiler . disableThreads ( ) ; <nl> + 
+ + if ( mCallAudioState == null ) { <nl> + return null ; <nl> + } 
+ - private final class GcMetrics { <nl> + private static final class GcMetrics { 
+ - super . accountStatusChanged ( account , stats ) ; <nl> + mHandler . refreshTitle ( ) ; 
+ + assert ! replies . isEmpty ( ) ; 
+ - return currentNetwork ; <nl> + return network ; 
+ - super ( " docs " , title ) ; <nl> + super ( title , " docs " ) ; 
+ + <nl> space
+ - nearby . removeBadge ( ) ; 
+ - public static final String VERSION = " 0 . 2 - SNAPSHOT " ; <nl> + public static final String VERSION = " 0 . 2 . 1 - SNAPSHOT " ; 
+ - Log . i ( TAG , " Orientation not found " ) ; <nl> + 
+annotation
+ + assumeTrue ( Platform . detect ( ) != Platform . LINUX ) ; 
+ + ReflectiveConfigOptionLoader . loadOnce ( ) ; 
+ - private NearCacheConfig nearCacheConfig = null ; <nl> + private NearCacheConfig nearCacheConfig = new NearCacheConfig ( ) ; 
+ - import android . content . ContentResolver ; 
+ + return ; 
+ - <nl> + getSession ( ) . stop ( ) ; 
+ - public class MessagePart { <nl> + class MessagePart { 
+ + + affected ; <nl> + break ; 
+ - true ) ) { <nl> + false ) ) { 
+ - mGetPageAsTextTask . execute ( getUrl ( ) . toString ( ) ) ; <nl> + mGetPageAsTextTask . execute ( urlAsString ) ; 
+ - if ( logger . isLoggable ( Level . FINE ) ) logger . fine ( " Request params : " + getParamList ( true ) ) ; 
+ - return false ; <nl> + return Configuration . needNewResources ( configChanges , entry . getChangingConfigurations ( ) ) ; 
+ - return false ; <nl> + return ! RectangularShapeCollisionChecker . isVisible ( pCamera , this ) ; 
+ - return Timestamper . ONE_MS * 60000 ; <nl> + return Timestamper . ONE_MS * 600000 ; 
+ - super ( " Force " + capitalize ( operationTitle ) ) ; <nl> + super ( " & Force " + capitalize ( operationTitle ) ) ; 
+ - mWebView . clearCache ( true ) ; <nl> + mWebView . freeMemory ( ) ; 
+ - return mName ; <nl> + return ( mName == null ? " " : mName ) ; 
+ - return " refactoring . introduceVariable " ; <nl> + return " python . reference . introduceVariable " ; 
+ + mechanism_too_weak , 
+ + typeSettingsProperties . remove ( oldStagingPortletId ) ; <nl> + 
+ - static class TemplateResource { <nl> + public static class TemplateResource { 
+ - public static class InvalidAwaitCall <nl> + public static class InvalidAwaitCall 
+ + languageMode = options . getLanguageIn ( ) ; <nl> + 
+ - private float pullPastSlack = 50f ; <nl> + private float pullPastSlack = 150f ; 
+ - new Exception ( " setting blend mode to " + mode ) . printStackTrace ( ) ; 
+ + setPanelLanguage ( langSelector . getLanguage ( ) ) ; 
+annotation
+ - return refresh ( false ) ; <nl> + return refresh ( true ) ; 
+ + private RuntimeConstants ( ) { { <nl> + } 
+ - enum SentenceField { <nl> + public enum SentenceField { 
+annotation
+ - public class DBMaker < DBMakerT extends DBMaker > { <nl> + public class DBMaker < DBMakerT extends DBMaker < DBMakerT > > { 
+ + myBuilder . dispose ( ) ; 
+ - <nl> - 
+ - throw new UnsupportedOperationException ( " getTransactionIsolation " ) ; <nl> + return TRANSACTION_NONE ; 
+ - if ( nextRow >= lastRow ) { <nl> + if ( nextRow > lastRow ) { 
+ - item . field_804_d = value ; <nl> + item . hoverStart = value ; 
+ + public void captivePortalCheckComplete ( ) { <nl> + <nl> + } <nl> + <nl> + 
+ + channel . close ( ) ; 
+ - this . modifiers = modifiers ; <nl> + redirect ( ) . modifiers = modifiers ; 
+ - return " striped " ; <nl> + return " single " ; 
+annotation
+ + _process . destroy ( ) ; 
+ - super ( cause ) ; <nl> + super ( " Corrupted : " + path , cause ) ; 
+ - public boolean isClosed ( ) { <nl> + } public synchronized boolean isClosed ( ) { 
+ + <nl> + mContext = context ; 
+ - this ( rootCause . getLocalizedMessage ( ) , rootCause ) ; <nl> + super ( rootCause ) ; 
+ + commit ( ) ; 
+ - return myUserNameText ; <nl> + return myUserNameText . isEnabled ( ) ? myUserNameText : myPasswordText ; 
+ - SslHandshakeCompletionEvent ( Throwable cause ) { <nl> + public SslHandshakeCompletionEvent ( Throwable cause ) { 
+ - typeStack . pop ( type1 , type2 ) ; 
+ + header . setRegexp ( false ) ; 
+ + _scroll = false ; 
+ - public boolean lowercaseWordVectors = true ; <nl> + public boolean lowercaseWordVectors = false ; 
+ - computeDeceleration ( friction ) ; <nl> + mDeceleration = computeDeceleration ( friction ) ; 
+ + <nl> space
+ - return null ; <nl> + return view ; 
+ - if ( overrideAllAssetCategoryIds != null ) { <nl> + if ( overrideAllAssetTagNames != null ) { 
+ + public RemoteServerConfiguration ( ) { <nl> + } <nl> + 
+ - <nl> space
+ - return " biz . bokhorst . xprivacy . Util " ; <nl> + return Util . class . getName ( ) ; 
+ - public Object getMkp ( ) { <nl> + } public MarkupBuilderHelper getMkp ( ) { 
+ + import java . io . UnsupportedEncodingException ; <nl> + import java . net . URLDecoder ; 
+ + this . mAlpha = pAlpha ; 
+ - if ( args . length < 1 ) ; <nl> - throw new IllegalArgumentException ( " Missing required argument " ) ; <nl> + <nl> + new Exception ( ) ; 
+ - handleMissingBinding ( this , key ) ; <nl> + handleMissingBinding ( key ) ; 
+ - public static final boolean DEBUG = true ; <nl> + public static final boolean DEBUG = false ; 
+ - throw new RuntimeException ( e . getMessage ( ) ) ; <nl> + throw new RuntimeException ( e ) ; 
+ - super ( ) ; <nl> - 
+ + else { <nl> + intent . putExtra ( EXTRA_STARTUP , true ) ; <nl> + } 
+ + <nl> + public int size ( ) { <nl> + return elements . length ; <nl> + } 
+ - return 0 ; <nl> + return getPerformAutoCleanupArgs ( context , 0 ) ; 
+ - return mRecordingState ; <nl> + synchronized ( mRecordingStateLock ) { <nl> + return mRecordingState ; <nl> + } 
+ + if ( url == null ) return null ; 
+ + if ( ! isShown ( ) ) { <nl> + return false ; <nl> + } <nl> + 
+ + mAlwaysInTapRegion = false ; <nl> + mAlwaysInBiggerTapRegion = false ; 
+ - <nl> space
+ - workerGroup = null ; <nl> + bossGroup = null ; 
+annotation
+ - public final class DayViewFacade { <nl> + public class DayViewFacade { 
+ + import java . util . List ; 
+ - updateTintFilter ( mTintFilter , state . mTint , state . mTintMode ) ; <nl> + mTintFilter = updateTintFilter ( mTintFilter , state . mTint , state . mTintMode ) ; 
+ + mStanzaQueue . clear ( ) ; 
+annotation
+annotation
+ + <nl> + public String toString ( ) { <nl> + return sourceString + " & " + targetString ; <nl> + } 
+ + <nl> + mIsShowing = false ; <nl> + 
+ - return defaultSchemaName ; <nl> + return defaultCatalogName ; 
+ + mSceneInitialized = false ; 
+ - return displayName ; <nl> + <nl> + return displayName . replaceAll ( " / " , " - " ) ; 
+ + if ( form instanceof Class ) <nl> + return ( Class ) form ; 
+ - <nl> space
+ - mx2 = width - 1 ; <nl> - my2 = height - 1 ; <nl> + mx2 = width ; <nl> + my2 = height ; 
+ + autoMappingsCache . put ( mapKey , autoMapping ) ; <nl> - autoMappingsCache . put ( mapKey , autoMapping ) ; 
+ - import com . sun . jmx . snmp . internal . SnmpDecryptedPdu ; <nl> - 
+ - protected boolean uncommitedData = false ; <nl> + protected volatile boolean uncommitedData = false ; 
+ + onDataSetChanged ( ) ; 
+ - <nl> space
+ - if ( SSID == null ) <nl> - return false ; 
+ + task . clear ( ) ; 
+ - public class NestedTryStatementsPredicate implements PsiElementPredicate { <nl> + class NestedTryStatementsPredicate implements PsiElementPredicate { 
+ + <nl> + templateManager . destroy ( ) ; 
+ + <nl> space
+ - <nl> + 
+ + <nl> space
+ - return super . dispatchKeyEvent ( event ) ; <nl> + return super . onKeyPreIme ( keyCode , event ) ; 
+ - mDrawables . clear ( ) ; <nl> + if ( mDrawables != null ) { <nl> + mDrawables . clear ( ) ; <nl> + } 
+ - <nl> + 
+ + public void unregisterReceiver ( BroadcastReceiver receiver ) { <nl> + <nl> + } <nl> + <nl> + 
+ + import jsr166y . ForkJoinPool ; 
+ + if ( impassableRoads == null ) { <nl> + return new long [ 0 ] ; <nl> + } 
+ + config . initialize ( ) ; 
+ - class CoffeeApp implements Runnable { <nl> + public class CoffeeApp implements Runnable { 
+ - <nl> + worldProvider . dispose ( ) ; 
+ - throw new IOException ( " Uknown message type . " ) ; <nl> + throw new IOException ( " Unknown message type . " ) ; 
+ - System . out . println ( " Setting notified false " ) ; 
+ + public void testIt ( ) { { } 
+ + if ( media . isDownloaded ( ) ) { <nl> + <nl> + dismiss ( ) ; <nl> + } 
+ - return getPowerProvider ( ) . getActivationEnergy ( ) ; <nl> + return getPowerProvider ( ) . getMaxEnergyReceived ( ) ; 
+ - public int cellPositionTransitionAnimationDuration = 2500 ; <nl> + public int cellPositionTransitionAnimationDuration = 250 ; 
+ - connections . remove ( socket ) ; 
+ - <nl> space
+ - <nl> - bindView ( view , context , cursor ) ; <nl> - 
+ - public static final String COLUMN_PACKAGE_NAME = " package_name " ; <nl> + String COLUMN_PACKAGE_NAME = " package_name " ; 
+ - static private class IntSetIterator { <nl> + static public class IntSetIterator { 
+ - private static final String MISSING_PHRASAL = " DUMMYP " ; <nl> - private static final String MISSING_POS = " DUMMY " ; 
+ - public boolean lowercaseWordVectors = true ; <nl> + public boolean lowercaseWordVectors = false ; 
+ - return curThreads - workers . size ( ) ; <nl> + return workers != null ? curThreads - workers . size ( ) : 0 ; 
+ - <nl> - return null ; <nl> + return ImmutableList . of ( ) ; 
+ - import org . junit . Ignore ; 
+ + Preconditions . checkEmptyString ( scope , " Invalid OAuth scope " ) ; 
+ - partner . forceRefresh ( ) ; 
+ - return String . format ( " aapt_package " ) ; <nl> + return " aapt_package " ; 
+ - this . instrumentationTemplateFile = filename ; <nl> + this . instrumentationTemplateFile = filename ; 
+ - <nl> + writer . optimize ( ) ; 
+ - public static final String DEFAULT_SORT_ORDER = " displayName " ; <nl> + public static final String DEFAULT_SORT_ORDER = CALENDAR_DISPLAY_NAME ; 
+ + notesPreview . setText ( " " ) ; 
+ - <nl> space
+ - import java . lang . reflect . InvocationTargetException ; 
+ + mArrowImageView . clearAnimation ( ) ; 
+ - return found ; <nl> + return found ; 
+ - item . hoverStart = value ; <nl> + item . field_804_d = value ; 
+ + runScript ( dataSource , BLOG_DDL ) ; 
+ - <nl> space
+ + <nl> + public abstract String getDefaultCertificatesFolder ( ) ; 
+ - <nl> space
+ - return callerPrincipalCallback . getSubject ( ) ; <nl> + return groupPrincipalCallback . getSubject ( ) ; 
+ - calling_login_should_return_user_if_user_present_in_http_session ( ) { <nl> + cookie_login_should_return_user_if_user_present_in_http_session ( ) { 
+ - this . data = data ; <nl> + this . data = newData ; 
+ - int bigCount = 0 ; 
+ - throw new UnsupportedOperationException ( ) ; <nl> + 
+ + requestLayout ( ) ; 
+ - return myNewNameField ; <nl> + return myShowNewNameField ? myNewNameField : myTargetDirectoryField . getChildComponent ( ) ; 
+ + sendP2pDiscoveryChangedBroadcast ( false ) ; 
+ - final byte offset ) { <nl> + final int offset ) { 
+ - <nl> + 
+ + driver . destroy ( ) ; <nl> + 
+ - <nl> space
+ - private class GetAllResult { <nl> + private static class GetAllResult { 
+ - <nl> - public String discard ( ) { <nl> - return super . discard ( ) ; <nl> - } 
+ + GLProfile . shutdown ( ) ; 
+ - catch ( IOException e ) { <nl> + catch ( Exception e ) { 
+ + if ( mapLayers . getLocationLayer ( ) == null ) { <nl> + return null ; <nl> + } 
+ - invalidate ( ) ; <nl> + requestLayout ( ) ; 
+ + myFrame . validate ( ) ; 
+ - import javaslang . Function2 ; <nl> - import javaslang . Tuple ; 
+ + public void keyguardGoingAway ( ) throws RemoteException { <nl> + } <nl> + <nl> + 
+ + this . mTheme = themeres ; 
+ + if ( mNotify != null ) { <nl> + mNotify . onUpdate ( ) ; <nl> + } 
+ + public void cacheColumnForLuminance ( int x ) { <nl> + <nl> + } <nl> + 
+ - <nl> + doCheckout ( project , listener , null ) ; 
+ + setDivider ( null ) ; <nl> + setDividerHeight ( 0 ) ; 
+annotation
+ - setPressed ( false ) ; 
+ - ( WindowManager ) context . getSystemService ( <nl> + ( WindowManager ) appContext . getSystemService ( 
+ - v . done ( ) ; 
+ + mParentView . removeCallbacks ( mSetIdleRunnable ) ; 
+ - POTION ( 373 ) , <nl> + POTION ( 373 , 1 ) , 
+ - <nl> space
+ - <nl> + 
+ + UnableToInjectException ( String message ) { <nl> + super ( message ) ; <nl> + } <nl> + 
+ + e . printStackTrace ( System . err ) ; 
+ - import org . languagetool . tools . Tools ; 
+ - return VirtualFile . EMPTY_ARRAY ; <nl> + return null ; 
+ - System . out . println ( " unsubscribe from merge " ) ; 
+ + this . selectedBuilder = selectedLayout . getBuilder ( ) ; 
+ - <nl> space
+ + mDecorToolbar . setWindowCallback ( mWindowCallback ) ; 
+ + public long getCurrentTime ( ) { <nl> + return currentTime ; <nl> + } 
+ - import views . html . system . users . show ; 
+ - public static final int MAX_ENUM_SIZE = 11000 ; <nl> + public static final int MAX_ENUM_SIZE = 65000 ; 
+ + restoreState ( savedInstanceState ) ; 
+ - bindAllocation ( mTables , 0 ) ; <nl> + setVar ( 0 , mTables ) ; 
+ - client . close ( ) ; 
+ + num = 0 ; 
+ + now = 5 ; <nl> + 
+ + <nl> + <nl> + public boolean supportsNotNullUnique ( ) { <nl> + return false ; <nl> + } 
+ - return null ; <nl> + return " reference . settings . ide . settings . file - colors " ; 
+ + query ( ) ; 
+ - return true ; <nl> + return EditSourceUtil . canNavigate ( this ) ; 
+ - private Intent mLastNewIntent ; 
+ + dumpedPrivateKeyHeader = 128 ; 
+ + catch ( OutOfMemoryError e ) { <nl> + exception = new Exception ( e ) ; <nl> + } 
+ - public Long read_request_timeout_in_ms = new Long ( 10000 ) ; <nl> + public Long read_request_timeout_in_ms = new Long ( 5000 ) ; 
+ - private CordovaWebViewClient viewClient ; <nl> + CordovaWebViewClient viewClient ; 
+ + mParticleShader . setCameraPosition ( camera . getPosition ( ) ) ; 
+ - <nl> space
+ + <nl> + 
+ - } else if ( ! wasSelected ) { <nl> + } else { 
+ - <nl> space
+ + private static final long serialVersionUID = - 4110417867718417860L ; <nl> + 
+ - swallow ( payloadSize ) ; 
+ - <nl> - super . tearDown ( ) ; <nl> - 
+ + private static final long serialVersionUID = - 8679405097266977101L ; <nl> + 
+ - return 0 ; <nl> + return ( int ) MINUTES . toSeconds ( 5 ) ; 
+ - return null ; <nl> + return new PluginList ( ) ; 
+ + <nl> + <nl> + public void tellChangedSessionId ( String newId , String oldId , <nl> + boolean notifySessionListeners , boolean notifyContainerListeners ) { <nl> + <nl> + } 
+ - return null ; <nl> + <nl> + return intent ; 
+ - return getBaseHandler ( ) . preprocessUsages ( project , usages ) ; <nl> + return usages ; 
+ - System . out . println ( getStuff ( ) ) ; 
+ - return null ; <nl> + return getPath ( ) ; 
+ - keyCode , <nl> + 0 , 
+ - applyCurrentState ( ) ; <nl> + updateChildren ( ) ; 
+ - isText = Boolean . FALSE ; <nl> + isText = Boolean . TRUE ; 
+ - <nl> + 
+ - private static final int FAILED_BIOMETRIC_UNLOCK_ATTEMPTS_BEFORE_BACKUP = 15 ; <nl> + private static final int FAILED_BIOMETRIC_UNLOCK_ATTEMPTS_BEFORE_BACKUP = 5 ; 
+ - <nl> + 
+annotation
+ + public Obj withMeta ( IPersistentMap meta ) { <nl> + throw new UnsupportedOperationException ( ) ; <nl> + } 
+ + raf . close ( ) ; 
+ + <nl> space
+ - <nl> space
+ - randomSize = false ; <nl> + randomSize = true ; 
+ - private static final int ZOOM_ANIMATION_LENGTH = 500 ; <nl> + private static final int ZOOM_ANIMATION_LENGTH = 175 ; 
+ - import com . sun . jna . Library ; <nl> - import com . sun . jna . Native ; <nl> - 
+ + mGPUImage . deleteImage ( ) ; 
+ - info . getTypeName ( ) ; <nl> + type = info . getTypeName ( ) ; 
+ - logPoolState ( " Release connection " ) ; 
+ - import java . io . BufferedReader ; <nl> - import java . io . FileReader ; 
+ - private String uuid ; <nl> - 
+ - final int nonExistingId = 999 ; <nl> + final int nonExistingId = getNonExistingCustomerId ( ) ; 
+annotation
+ - return " net . tcp . buffersize . wifi " ; <nl> + return " net . tcp . buffersize . ethernet " ; 
+ + <nl> space
+ - public static final String BUILD = " 3 . 0 " ; <nl> + public static final String BUILD = " 3 . 0 . 0 " ; 
+ + mView . removeView ( mWebview ) ; <nl> + mWebview . removeAllViews ( ) ; 
+ - return " 0 . 3 . 1 " ; <nl> + return " 0 . 3 . 2 " ; 
+ - return R . drawable . bubble_white ; <nl> + return R . style . Bubble_TextAppearance_Dark ; 
+annotation
+ - recordLeakNonRefCountingOperation ( ) ; 
+ + <nl> space
+ - StringBuilder mBuf ; <nl> + StringBuilder mBuf = new StringBuilder ( ) ; 
+ - private static final int MAX_DRAG_BEZEL_DP = 16 ; <nl> + private static final int MAX_DRAG_BEZEL_DP = 24 ; 
+ + classification = cp . classification ; 
+ - return Collections . unmodifiableList ( _hintFields ) ; <nl> + return _hintFields ; 
+ + <nl> + <nl> + public String getUniqueKey ( ) { <nl> + return null ; <nl> + } 
+ - <nl> - <nl> - public boolean isUsingAnnonymousInnerClass ( ) { <nl> - return isUsingAnonymousInnerClass ( ) ; <nl> - } 
+ + HystrixPlugins . reset ( ) ; 
+ + setScrollIndicators ( View . SCROLL_INDICATOR_TOP | View . SCROLL_INDICATOR_BOTTOM ) ; 
+ + intent . setFlags ( Intent . FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET ) ; 
+ - <nl> space
+ - . message ( " Uncaught exception " ) 
+ - final public class PersistentStructMap extends APersistentMap { <nl> + public class PersistentStructMap extends APersistentMap { 
+annotation
+ - Log_OC . e ( TAG , " KeepInSync " ) ; 
+ - <nl> + gpx . points . add ( pt ) ; 
+ - removeCallbacksAndMessages ( null ) ; <nl> + removeMessages ( QUIT ) ; 
+ - <nl> - return 0 ; <nl> + return invocations . size ( ) ; 
+ - return curComp . equals ( cur ) ; <nl> + return curComp . equals ( service ) ; 
+ + <nl> + public abstract boolean isJsp_2_1_OrBetter ( final PsiFile context ) ; 
+ - private AtomicBoolean isStarted ; <nl> + private final AtomicBoolean isStarted ; 
+ + resolver = bootstrap . resolver ; 
+ + endRecord ( ) ; 
+ + settings . apLostThreshold = apLostThreshold ; 
+ - BLACK ( ' 0 ' , 0x01 ) , <nl> + BLACK ( ' 0 ' , 0x00 ) , 
+ - return true ; <nl> + return false ; 
+ - WebConnection connection ; <nl> + private WebConnection connection ; 
+annotation
+ - flushInternal ( true , true ) ; <nl> + flushInternal ( false , false ) ; 
+ + mLastMotionY = ev . getY ( ) ; 
+ - return refresh ( false ) ; <nl> + return refresh ( true ) ; 
+ + if ( isFinishing ( ) ) <nl> + return ; 
+ - super ( SYNTH_THREAD_NAME , android . os . Process . THREAD_PRIORITY_AUDIO ) ; <nl> + super ( SYNTH_THREAD_NAME , android . os . Process . THREAD_PRIORITY_DEFAULT ) ; 
+ - <nl> + <nl> + 
+ - from . setTranslationY ( 0 ) ; <nl> + from . setTranslationX ( 0 ) ; 
+ + mUsage = usageForLegacyStreamType ( streamType ) ; 
+ - mLayerPaint = paint ; <nl> + mLayerPaint = paint == null ? new Paint ( ) : paint ; 
+ - public void folderStatusChanged ( Account account , String folderName ) { } <nl> - 
+ - String mUID ; 
+ + this . players . remove ( id ) ; 
+ + myBranchSelectorAction . asTextAction ( ) ; 
+ - protected StreamHandler createWebSocketInbound ( String subProtocol , <nl> + protected StreamHandler createWebSocketHandler ( String subProtocol , 
+ + arFactory = null ; 
+ + <nl> + <nl> + public void getStableInsets ( Rect outInsets ) throws RemoteException { <nl> + } 
+ + <nl> space
+ - types [ i ] = Vec . T_BAD ; <nl> + types [ i ] = Vec . T_NUM ; 
+ - return " fitcDemo " ; <nl> + return " chatServer " ; 
+ + <nl> + public void setDependencyMet ( boolean met ) { <nl> + <nl> + } 
+ - Hazelcast . newHazelcastInstance ( ) ; 
+ + <nl> space
+ - <nl> space
+annotation
+ - private Field ( String name ) { <nl> + public Field ( String name ) { 
+ + Agent . shutdown ( ) ; 
+annotation
+ - <nl> - <nl> - 
+ - DIODE ( 100 ) , <nl> + DIODE ( 356 ) , 
+ - mTargetIds . remove ( targetId ) ; <nl> + mTargetIds . remove ( ( Integer ) targetId ) ; 
+ + now = 5 ; <nl> + 
+ - return remaining > 0 ; <nl> + return remaining <= 0 ; 
+ + public MillisType ( ) { <nl> + } <nl> + 
+ - <nl> + OS . rmdir ( sTmpDir ) ; 
+ - mMat = new float [ 2 ] ; <nl> + mMat = new float [ 4 ] ; 
+ - return null ; <nl> + return UnknownConfigurationType . INSTANCE ; 
+ + player . deallocate ( ) ; <nl> + player . close ( ) ; 
+ - import tachyon . master . IndexedSet ; <nl> - 
+ + mCamera . setProjectionMatrix ( mViewportWidth , mViewportHeight ) ; 
+ + String getUrl ( ) ; <nl> + 
+ - public DBMaker asyncThreadDeamonEnable ( ) { <nl> + } public DBMaker asyncThreadSetDeamon ( ) { 
+ - <nl> space
+ + executor . shutdownNow ( ) ; 
+ + <nl> space
+ - import org . testng . Assert ; 
+ - static final int ENABLE_RETINA_PIXELS = 10 ; <nl> - static final int DISABLE_RETINA_PIXELS = - 10 ; <nl> - 
+ + mMenu . close ( ) ; <nl> + 
+ + <nl> space
+ - int threadCountStart = threadCount ( ) ; <nl> - 
+ - private TimedDeadzone myMouseDeadzone ; <nl> + private final TimedDeadzone myMouseDeadzone ; 
+ - return Format . Format3rms ; <nl> + return Format . Format3rmi ; 
+ + return ; 
+ + this . activity = ( ConversationActivity ) getActivity ( ) ; 
+ - return true ; <nl> + return false ; 
+ - return getClass ( ) . hashCode ( ) ; <nl> + return signature . hashCode ( ) ; 
+ - System . out . println ( " read settings " ) ; 
+ + setColor ( 1 , 1 , 1 , 1 ) ; 
+ + this . mParticlesDueToSpawn = 0 ; 
+ + <nl> space
+ + if ( size ( ) == 0 ) return " [ ] " ; 
+ - return " Source Control " ; <nl> + return " Version Control " ; 
+ - Preferences . clear ( AstridNewSyncMigrator . PREF_SYNC_MIGRATION ) ; 
+ + mOverlayViewCreated = false ; <nl> + mOverlayViewFrame = null ; 
+ + getView ( ) ; 
+ - public static final String JOURNAL = <nl> - " com_liferay_journal_web_portlet_JournalPortlet " ; <nl> - 
+ - return FilterReply . DENY ; <nl> + return FilterReply . NEUTRAL ; 
+ - public void recycle ( ) { <nl> + } public synchronized void recycle ( ) { 
+ - } catch ( ClassNotFoundException e ) { <nl> + } catch ( ClassNotFoundException ignored ) { 
+ + type = typeOverride ; 
+ - System . loadLibrary ( " retrofit " ) ; <nl> + System . loadLibrary ( " retrofit - android - native " ) ; 
+ - mSelected = null ; <nl> + mSelected . clear ( ) ; 
+ - return saveJSONArray ( json , filename ) ; <nl> + return saveJSONArray ( json , filename , null ) ; 
+ + pendingMO = null ; 
+ - wpDB . deleteAllAccounts ( ) ; 
+ + this . eventBus = eventBus ; 
+ - private static final String TAB = " " ; 
+ - show ( message , duration ) ; <nl> + show ( message , 0 , duration ) ; 
+ - public synchronized void receivedPushPromis ( ) { <nl> + } public synchronized void receivedPushPromise ( ) { 
+ + history = new History ( ) ; 
+ - if ( hasCollapsibleActionView ( ) ) { <nl> + if ( ! hasCollapsibleActionView ( ) ) { 
+ - return " 0 . 3 . 3 " ; <nl> + return " 0 . 4 . 0 " ; 

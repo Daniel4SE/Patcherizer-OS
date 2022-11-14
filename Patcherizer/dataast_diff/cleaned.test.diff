@@ -1,0 +1,198 @@
+ - mCursor . deactivate ( ) ; <nl> - <nl> + mCursor . close ( ) ; 
+ - import groovy . lang . Closure ; <nl> - import groovy . lang . GroovyObject ; 
+ + <nl> space
+ - if ( isTaken ( ) ) { <nl> + if ( robotTaking ( ) != null ) { 
+ + newbie . parent = parent ; 
+ + robotiumUtils . sendKeyCode ( key ) ; 
+ + logger . debug ( " Completed submission of build tasks for any materialized views defined at startup " ) ; 
+ + myAlarm . cancelAllRequests ( ) ; 
+ + <nl> space
+ - scd . addConfigurations ( m ) ; <nl> + bd . addConfigurations ( m ) ; 
+ + <nl> space
+ - return isTriggered ( ) ? Type . TRIGGERED : Type . SCHEDULED ; <nl> + return isScheduled ( ) ? Type . SCHEDULED : Type . TRIGGERED ; 
+ + _offset = false ; <nl> + _weights = false ; 
+ - import java . util . List ; 
+ - return false ; <nl> + return mRingbackRequested ; 
+ + <nl> space
+ + <nl> + events_ . fireEvent ( new WindowEnsureVisibleEvent ( this ) ) ; 
+ + <nl> + public boolean isVisible ( ) { <nl> + return mIsVisible ; <nl> + } 
+ + this . originType = type ; 
+ + return ; 
+ - return this . children ( ) ; <nl> + return this . children ; 
+ + buffer . rewind ( ) ; 
+ + myFoldingModel . destroy ( ) ; <nl> + 
+ - return VcsUtil . getVirtualFile ( pathToDir ) ; <nl> + return VcsUtil . getVirtualFileWithRefresh ( new File ( pathToDir ) ) ; 
+ - writer . writeEndElement ( ) ; 
+ - import org . testng . annotations . Test ; <nl> + import org . junit . Test ; 
+ - super ( new URL [ 0 ] ) ; <nl> + super ( new URL [ 0 ] , ModClassLoader . class . getClassLoader ( ) ) ; 
+ + <nl> + setUseContentLength ( true ) ; <nl> + 
+ + if ( context == null ) { <nl> + AQUtility . warn ( " warn " , " getContext with null " ) ; <nl> + } 
+ - layout . setRefreshingLabel ( label ) ; <nl> + layout . setReleaseLabel ( label ) ; 
+ - canvas . rotate ( angle ) ; <nl> + canvas . rotate ( angle * RAD_TO_DEG ) ; 
+ + <nl> + <nl> + 
+ + if ( scope == globalScope ) { <nl> + return scope ; <nl> + } 
+ - if ( glu == null ) glu = new GLU ( ) ; <nl> + glu = new GLU ( ) ; 
+ - import processing . app . ui . Editor ; 
+ - } public static final int PRIVATE_FLAG_SUSTAINED_PERFORMANCE_MODE = 0x00020000 ; <nl> + public static final int PRIVATE_FLAG_SUSTAINED_PERFORMANCE_MODE = 0x00040000 ; 
+ - super ( out , false ) ; <nl> + super ( out , true ) ; 
+ - public static String getKey ( final YAMLKeyValue yamlKeyValue ) { <nl> + } public static String getFullKey ( final YAMLKeyValue yamlKeyValue ) { 
+ - private boolean mGestureVisible ; <nl> + private boolean mGestureVisible = true ; 
+ - static boolean _hdfsActive = false ; <nl> - 
+ - private boolean mIsVertical ; <nl> + private boolean mIsVertical = true ; 
+ - requestFuture = null ; 
+ - public Integer native_transport_port = 8000 ; <nl> + public Integer native_transport_port = 9042 ; 
+ + mLastTime = currentTime ; 
+ - return null ; <nl> + return " XML . Catalog . Dialog " ; 
+ - Application application ; <nl> + private Application application ; 
+ - return true ; <nl> + return false ; 
+ - return Objects . hashCode ( itemID , itemMeta ) ; <nl> + return 31 * itemID + itemMeta ; 
+ - mGridView . setAdapter ( new MyAdapter ( ) ) ; <nl> + mGridView . setAdapter ( adapter ) ; 
+ - this . autoBind = true ; <nl> + this . autoBind = autoBind ; 
+ - next . normalizeZeroMeanZeroUnitVariance ( ) ; 
+ + public void setId ( Long id ) { <nl> + this . id = id ; <nl> + } 
+ - this . modifiers = modifiers ; <nl> + redirect ( ) . modifiers = modifiers ; 
+ - private int mNObject ; 
+ - private static final String TAG = " GeoIntentActivity " ; 
+ - <nl> space
+ - File file = new File ( " test ( ) - database . mapdb " ) ; 
+ + import java . util . Date ; 
+ - max = 1000 ; <nl> + this ( 1000 ) ; 
+ + <nl> + 
+ - class ActivityContainer extends IActivityContainer . Stub { <nl> + class ActivityContainer extends android . app . IActivityContainer . Stub { 
+ - <nl> space
+ + mGCThread = new GCThread ( this ) ; <nl> + mGCThread . start ( ) ; <nl> + 
+ - annotationTagProcessor . process ( tag ) ; <nl> + annotationTagProcessor . process ( annotationTag ) ; 
+annotation
+ - protected OutputBuffer outputStreamOutputBuffer ; <nl> + protected final OutputBuffer outputStreamOutputBuffer ; 
+ - return false ; <nl> + return true ; 
+ - private boolean mySelected ; <nl> + protected boolean mySelected ; 
+ - return 2 ; <nl> + return story . isShareable ( ) ? 2 : 1 ; 
+ + mXmppConnectionService . updateConversationUi ( ) ; 
+ - return ; <nl> + return this ; 
+ + unregisterReceiver ( mPackageBroadcastReceiver ) ; 
+ - runSelection ( false ) ; 
+ + <nl> + <nl> + protected String getHelpId ( ) { <nl> + return " reference . new . action . dialog " ; <nl> + } 
+ + <nl> + public long getUserId ( ) { <nl> + return _userId ; <nl> + } 
+ - return null ; <nl> + return new TransitionStub ( ) ; 
+ - Disposer . dispose ( this ) ; 
+ + <nl> + public ReadOnlyList < Ref > getRefsToThisCommit ( ) { <nl> + return refsToThisCommit ; <nl> + } 
+annotation
+ + interrupt ( ) ; 
+ + ensureOpen ( ) ; <nl> + 
+ + import com . battlelancer . seriesguide . beta . R ; 
+ + <nl> + invalidate ( ) ; 
+ + <nl> + <nl> + 
+ - mAudioQuality = AUDIO_QUALITY_AMR_WB ; <nl> + mAudioQuality = AUDIO_QUALITY_NONE ; 
+ + <nl> space
+ - onLineNumber ( statement , " visitTryCatchFinally " ) ; 
+ + backupAgentName = orig . backupAgentName ; 
+ - throws PortalException , SystemException { <nl> + throws SystemException { 
+ + <nl> space
+ - import java . io . BufferedInputStream ; 
+ - return new CombinedTransform ( this , other ) ; <nl> + return other ; 
+ - super ( value ) ; <nl> + super ( value , " reference " ) ; 
+ + <nl> + public String toString ( ) { <nl> + return toList ( ) . toString ( ) ; <nl> + } 
+ - private boolean mSceneInitialized ; <nl> + protected boolean mSceneInitialized ; 
+ - public void cleanRegistries ( WorldEvent . Load load ) { <nl> + } public void cleanRegistries ( WorldEvent . Unload unload ) { 
+ + sendChangedNotification ( userHandle ) ; 
+annotation
+ - private volatile int maxConnectionsPerNode = 10 ; <nl> + private volatile int maxConnectionsPerNode = 50 ; 
+ - return getInstance ( ) . _messageBus ; <nl> + return _messageBus ; 
+ - <nl> - public void destroy ( ) { <nl> - } 
+annotation
+ - callable . setResolveStrategy ( Closure . DELEGATE_FIRST ) ; 
+ + mySdkSettingsWereModified = false ; 
+ - private byte [ ] _buffer = new byte [ 512 ] ; <nl> + private byte [ ] _buffer = new byte [ 1024 ] ; 
+ + imageView . setImageResource ( 0 ) ; 
+ - static class FnExpr implements Expr { <nl> + static public class FnExpr implements Expr { 
+ - <nl> space
+ + if ( this . control != control ) return null ; 
+ + System . err . println ( " Unexpected HTTP call " + httpRequest . getRequestLine ( ) ) ; <nl> + 
+ + return ; 
+ + <nl> + <nl> + synchronized ( listenerThread ) { <nl> + listenerThread . notify ( ) ; <nl> + } 
+ - return null ; <nl> + throw new UnsupportedOperationException ( " not implemented " ) ; 
+ + wrapper . setWriteTimeout ( INFINITE_TIMEOUT ) ; 
+ - public void close ( ) throws IOException { <nl> + } public synchronized void close ( ) throws IOException { 
+ + expert . createRelation ( this , en ) ; 
+annotation
+ + if ( remaining ( ) == 0 ) <nl> + return EMPTY_BYTEBUFFER ; 
+ + target . setLayoutParams ( layoutParams ) ; 
+ + <nl> + <nl> + NetworkUtils . stopDhcp ( mIface ) ; <nl> + 
+ + import android . text . Html ; 
+ - scheduleResultsUpdate ( ) ; <nl> + if ( comboBox == myInputComboBox ) scheduleResultsUpdate ( ) ; 
+ - public boolean supportsMultipleUsers ( ) { <nl> + } public static boolean supportsMultipleUsers ( ) { 
+ + <nl> + private Format ( ) { } 
+ + inputs . remove ( oldInput ) ; 
+ - mTintFilter = updateTintFilter ( mTintFilter , s . mTint , s . mTintMode ) ; <nl> + mTintFilter = updateTintFilter ( mTintFilter , state . mTint , state . mTintMode ) ; 
+ + this . originType = type ; 
+ + mCurrentMode = MODE_PULL_DOWN_TO_REFRESH ; 
+ - public boolean isScreenBrightnessBoosted ( ) { <nl> + } public boolean isScreenBrightnessBoosted ( ) throws RemoteException { { 
+annotation
+ - return softDepend ; <nl> + return loadBefore ; 
+ - protected Builder ( ) { <nl> + private Builder ( ) { 
+ + mView . buildLayer ( ) ; 
+ - <nl> + mSignInFragment . smartLockAutoFill ( ) ; 
+ - return properties . itemType >= ItemViewProperties . ID_NOT_IN_ACTIONBAR ; <nl> + return properties . itemType > ItemViewProperties . ID_NOT_IN_ACTIONBAR ; 
+ - <nl> - <nl> - public boolean isUsingAnnonymousInnerClass ( ) { <nl> - return isUsingAnonymousInnerClass ( ) ; <nl> - } 
+ - pgl . capabilities = caps ; 
+ - inputStream = null ; 
+ + <nl> space
+ - result = null ; <nl> - 
+ - <nl> space
+ + RenderHelper . enableGUIStandardItemLighting ( ) ; 
+ + ProviderTableMeta . FILE_SHARE_BY_LINK ) ; <nl> + mFileProjectionMap . put ( ProviderTableMeta . FILE_PUBLIC_LINK , 
+ + ddmFormValues . setDDMForm ( ddmForm ) ; 
+ - if ( adapterCount < MIN_ADAPTER_STACK ) mFlingListener . onAdapterAboutToEmpty ( adapterCount ) ; <nl> + if ( adapterCount <= MIN_ADAPTER_STACK ) mFlingListener . onAdapterAboutToEmpty ( adapterCount ) ; 
+ - private Filter filter = null ; <nl> + private transient Filter filter = null ; 
+ + if ( lastStartTag == null ) <nl> + return false ; 
+ + public void clearCache ( ) ; <nl> + 
+annotation
+annotation
+ + if ( myProject . isDefault ( ) ) return null ; 
+ + modificator . commitChanges ( ) ; 
+ + import water . fvec . Chunk ; 
+ - public synchronized AccountManager getAccountManager ( ) { <nl> + } public AccountManager getAccountManager ( ) { 
+ - public int getPacketSize ( ) { <nl> - return buf . length ; <nl> - } <nl> - <nl> - 
+ + addFilterFacetAndGlobal ( builder , params ) ; <nl> + 
+annotation
+ + onOrientationChange . disable ( ) ; <nl> + 
+ + onReceivedIcon ( null ) ; 
+ + classNode . setNodeMetaData ( ClassNodeSkip . class , true ) ; 
+ - mVideoCallListener = null ; <nl> + mCallback = null ; 
+ - threadConfig . get ( ) . setOptimizeDatabase ( useLuceneLocking ) ; <nl> + threadConfig . get ( ) . setUsingLuceneLocking ( useLuceneLocking ) ; 
+ - <nl> space
+ + initCodecList ( ) ; 
+ - System . out . println ( httpRequest ) ; 
+ + <nl> space
+ - return super . getSecondString ( ) ; <nl> + return super . getSummary ( ) ; 
+ - import java . io . IOException ; 
+ + if ( ni == 0 ) { <nl> + throw new IllegalStateException ( ) ; <nl> + } 
+ - static class SubscriptionCallbackApi21 extends SubscriptionCallback { <nl> + public static class SubscriptionCallbackApi21 extends SubscriptionCallback { 
+ - client . get ( getAbsoluteUrl ( url ) , params , responseHandler ) ; <nl> + client . post ( getAbsoluteUrl ( url ) , params , responseHandler ) ; 
+ - <nl> + 
+ - private static final int MAX_TRANSFERS = 20 ; <nl> - 
+ - dlFileEntryTypeLocalService . deleteFileEntryTypes ( getGroupId ( ) ) ; <nl> - 
+ - <nl> + 
+ + options . setRemoveVersionsByInterval ( false ) ; 
+ - import java . net . MalformedURLException ; 
+ + mParcelableData = null ; 
+ - layout . removeView ( settingsAppModeButton ) ; <nl> - mapActivity . accessibleContent . remove ( settingsAppModeButton ) ; 
+ - <nl> space
+ - return getPowerProvider ( ) . getMaxEnergyReceived ( ) ; <nl> + return getPowerProvider ( ) . getActivationEnergy ( ) ; 
+ + if ( obj == null ) { <nl> + return false ; <nl> + } <nl> + 
+ - return isReturning ? activity . mExitTransitionListener : activity . mEnterTransitionListener ; <nl> + return isReturning ? activity . mEnterTransitionListener : activity . mExitTransitionListener ; 
+ - public static boolean sUseRenderThread = true ; <nl> + public static boolean sUseRenderThread = false ; 
+ - super ( type ) ; <nl> + super ( type , " something " ) ; 
+ - mView . post ( mAnimationStarter ) ; <nl> + mView . postOnAnimation ( mAnimationStarter ) ; 
+ + if ( ! formFieldsProcessed ) processFormFields ( ) ; 
+ - return formattedStreetName ; <nl> + return formattedStreetName . replace ( " ; " , " , " ) ; 
+ - private static boolean validate = true ; <nl> + private static boolean validate = false ; 
+ + channel . close ( ) ; 
+annotation
+ + PROPNAME_PARENT , 
+ - private static final int PROGRESS_TEXT_INVISIBLE = 1 ; <nl> - 
+ - if ( myError == null ) { <nl> + if ( myError != null ) { 
+ + public ChangeLogParameters getChangeLogParameters ( ) { <nl> + return changeLogParameters ; <nl> + } <nl> + 
+ - stopTableEditing ( ) ; 
+ + updateChangesContent ( ) ; 
+ + setOnUpdateListener ( null ) ; 
