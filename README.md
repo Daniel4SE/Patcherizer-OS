@@ -18,7 +18,7 @@ Patcherizer, a novel representation learning approach that fuses contextual, str
 
 ## Ⅱ) Requirements
 ### A) Environment 
-  * python ?
+  * python 3.8
   * pip install -r requirements.txt
 
 ## Ⅲ) Experiment
@@ -33,7 +33,10 @@ Patcherizer, a novel representation learning approach that fuses contextual, str
   2. Reproduction:
     1) Download pretrain file and put it in the folder: Patcherzier/exp/pretrain/
     2) Download finetune file and put it in the folder: Patcherzier/exp/finetuen/
-    3) sh run_all_gcn.sh 4 6
+    3) 
+    ```
+    sh run_all_gcn.sh 4 6
+    ```
 
 
 #### RQ 1.2 Patch correctness assessment
