@@ -7,6 +7,9 @@ Patcherizer, a novel representation learning approach that fuses contextual, str
 ## Ⅰ) Dataset
 
 ### A) Patch description generation.
+ Download dataset.zip [data in Zenodo](https://zenodo.org/deposit/7317318 "Dataset for Patch Description Generation"), 
+  1. Evaluate results of different models: 1) cd PatchDescriptionGeneration; 2) sh evaluate_all_models.sh
+  2. R
 
 ### B) Patch correctness assessment. 
   Download _ASE_features2_bert.pickle_ from [data in Zenodo](https://zenodo.org/record/7029808#.YwuKF2QzZb8 "Dataset for Quatrain"), 
