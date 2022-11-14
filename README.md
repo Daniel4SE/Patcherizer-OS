@@ -31,6 +31,7 @@ Patcherizer, a novel representation learning approach that fuses contextual, str
     1) cd PatchDescriptionGeneration; 
     2) sh evaluate_all_models.sh
   2. Reproduction:
+  [Data of pre-train and fine-tune files](https://zenodo.org/record/7317990#.Y3LM1OzML3s "Data of pre-train and fine-tune files"),
     1) Download pretrain file and put it in the folder: Patcherzier/exp/pretrain/
     2) Download finetune file and put it in the folder: Patcherzier/exp/finetuen/
     3) 
@@ -47,10 +48,11 @@ python main.py
 #### RQ 1.3 JIT defect prediction
 
 
-### B) RQ2 ()
+### B) RQ2 (ablation study)
 go to PatchDescriptionGeneration/, and execute the following script:
 ```
 sh evaluate_all_models.sh
 ```
 
-### C) RQ3 ()
+### C) RQ3 (robustness)
+
