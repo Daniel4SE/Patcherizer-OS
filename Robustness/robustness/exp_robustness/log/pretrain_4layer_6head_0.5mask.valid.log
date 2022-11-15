@@ -1,0 +1,11 @@
+Namespace(batch_size=16, cuda=True, d_inner_hid=2048, d_k=64, d_model=512, d_v=64, d_word_vec=512, data='./exp_quatrain_1/vocab/pretrain_vocab', dropout=0.1, embs_share_weight=True, epoch=30, label_smoothing=True, log='./exp_quatrain_1/log/pretrain_4layer_6head_0.5mask', max_token_seq_len=514, model=None, n_head=6, n_layers=4, n_warmup_steps=4000, no_cuda=False, proj_share_weight=True, save_mode='best', save_model='./exp_quatrain_1/pretrain/pretrain_4layer_6head_0.5mask', save_thres=None, seed=42, src_vocab_size=95831, tgt_vocab_size=95831)
+epoch,loss,ppl,accuracy
+0, 5.36581, 213.96528,38.830
+1, 3.23388, 25.37783,56.587
+2, 2.20320, 9.05390,69.321
+3, 1.75469, 5.78165,75.355
+4, 1.45693, 4.29277,79.474
+5, 1.31133, 3.71112,81.654
+6, 1.15374, 3.17001,83.798
+7, 1.07235, 2.92225,84.995
+8, 1.05861, 2.88235,85.098

@@ -1,0 +1,1 @@
+public class MockFactory < T > { public void test ( ) {       enhancer . setClassLoader ( MockFactory . class . getClassLoader ( ) ) ;   return enhancer ;     } } 
