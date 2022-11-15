@@ -46,6 +46,8 @@ go to /PatchCorrectness/, and execute the following script:
 python main.py
 ```
 #### RQ 1.3 JIT defect prediction
+get embedding: go to Patcherizer/ and ```sh get_embedding.sh```
+for comparison, refer to cc2vec
 
 
 ### B) RQ2 (ablation study)
@@ -55,4 +57,9 @@ sh evaluate_all_models.sh
 ```
 
 ### C) RQ3 (robustness)
+Download [Data of Robustness](https://zenodo.org/record/7320397#.Y3LY5OzML3s "Robustness"), unzip and go to robustness/.
+run
+```
+sh run_all.sh 4 6
+```
 
